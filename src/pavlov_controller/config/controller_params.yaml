@@ -1,0 +1,57 @@
+ros__parameters:
+    control_frequency: 50.0
+
+    wheel_radius: 0.0325              
+    wheel_track: 0.10706              
+    robot_wheelbase: 0.18340
+  
+    max_linear_velocity: 0.5          
+    max_angular_velocity: 3.0         
+    max_linear_acceleration: 0.3      
+    max_angular_acceleration: 2.0     
+  
+    max_wheel_velocity: 15.4          
+    max_wheel_torque: 20.0            
+  
+    kp_velocity: 50.0
+    kd_velocity: 5.0
+    ki_velocity: 2.0
+  
+    camera_publish_rate: 30           
+  
+    use_sim_time: true
+    publish_tf: true
+    enable_odom_tf: true
+
+    gait_type: "trot"
+    step_height: 0.05
+    step_length: 0.1
+    
+    body_length: 0.30
+    body_width: 0.20
+    body_height: 0.15
+    
+    hip_offset: 0.05
+    thigh_length: 0.12
+    shank_length: 0.12
+    
+    kp_position: 100.0
+    kd_position: 10.0
+    
+    max_joint_velocity: 3.14 
+    max_joint_torque: 10.0
+    
+    trot:
+      frequency: 1.0
+      duty_factor: 0.6
+      phase_offsets: [0.0, 0.5, 0.5, 0.0]
+    
+    pace:
+      frequency: 1.0
+      duty_factor: 0.5
+      phase_offsets: [0.0, 0.5, 0.0, 0.5]
+    
+    diagonal:
+      frequency: 1.0
+      duty_factor: 0.6
+      phase_offsets: [0.0, 0.75, 0.5, 0.25]

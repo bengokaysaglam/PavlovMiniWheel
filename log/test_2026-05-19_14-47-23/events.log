@@ -1,0 +1,682 @@
+[0.000000] (-) TimerEvent: {}
+[0.000478] (pavlov_controller) JobQueued: {'identifier': 'pavlov_controller', 'dependencies': OrderedDict([('pavlov_controller', '/home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_controller')])}
+[0.000610] (pavlov_description) JobQueued: {'identifier': 'pavlov_description', 'dependencies': OrderedDict([('pavlov_description', '/home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description')])}
+[0.000692] (pavlov_controller) JobStarted: {'identifier': 'pavlov_controller'}
+[0.019291] (pavlov_description) JobStarted: {'identifier': 'pavlov_description'}
+[0.099426] (-) TimerEvent: {}
+[0.201842] (-) TimerEvent: {}
+[0.302680] (-) TimerEvent: {}
+[0.403710] (-) TimerEvent: {}
+[0.507736] (-) TimerEvent: {}
+[0.608512] (-) TimerEvent: {}
+[0.709186] (-) TimerEvent: {}
+[0.809715] (-) TimerEvent: {}
+[0.910180] (-) TimerEvent: {}
+[1.010692] (-) TimerEvent: {}
+[1.111218] (-) TimerEvent: {}
+[1.211644] (-) TimerEvent: {}
+[1.312214] (-) TimerEvent: {}
+[1.412830] (-) TimerEvent: {}
+[1.513300] (-) TimerEvent: {}
+[1.613842] (-) TimerEvent: {}
+[1.715227] (-) TimerEvent: {}
+[1.817892] (-) TimerEvent: {}
+[1.918869] (-) TimerEvent: {}
+[2.019203] (-) TimerEvent: {}
+[2.124243] (-) TimerEvent: {}
+[2.225281] (-) TimerEvent: {}
+[2.326111] (-) TimerEvent: {}
+[2.427648] (-) TimerEvent: {}
+[2.528174] (-) TimerEvent: {}
+[2.629724] (-) TimerEvent: {}
+[2.731220] (-) TimerEvent: {}
+[2.832102] (-) TimerEvent: {}
+[2.935812] (-) TimerEvent: {}
+[3.036961] (-) TimerEvent: {}
+[3.137706] (-) TimerEvent: {}
+[3.240029] (-) TimerEvent: {}
+[3.341535] (-) TimerEvent: {}
+[3.443838] (-) TimerEvent: {}
+[3.544951] (-) TimerEvent: {}
+[3.646281] (-) TimerEvent: {}
+[3.747224] (-) TimerEvent: {}
+[3.851800] (-) TimerEvent: {}
+[3.953128] (-) TimerEvent: {}
+[4.053873] (-) TimerEvent: {}
+[4.154462] (-) TimerEvent: {}
+[4.259681] (-) TimerEvent: {}
+[4.377384] (-) TimerEvent: {}
+[4.478268] (-) TimerEvent: {}
+[4.579414] (-) TimerEvent: {}
+[4.680288] (-) TimerEvent: {}
+[4.786276] (-) TimerEvent: {}
+[4.888044] (-) TimerEvent: {}
+[4.991664] (-) TimerEvent: {}
+[5.093667] (-) TimerEvent: {}
+[5.194105] (-) TimerEvent: {}
+[5.294524] (-) TimerEvent: {}
+[5.395457] (-) TimerEvent: {}
+[5.496982] (-) TimerEvent: {}
+[5.597241] (-) TimerEvent: {}
+[5.698180] (-) TimerEvent: {}
+[5.799085] (-) TimerEvent: {}
+[5.900173] (-) TimerEvent: {}
+[6.001012] (-) TimerEvent: {}
+[6.102663] (-) TimerEvent: {}
+[6.203725] (-) TimerEvent: {}
+[6.308252] (-) TimerEvent: {}
+[6.408707] (-) TimerEvent: {}
+[6.509234] (-) TimerEvent: {}
+[6.609709] (-) TimerEvent: {}
+[6.711118] (-) TimerEvent: {}
+[6.813307] (-) TimerEvent: {}
+[6.915092] (-) TimerEvent: {}
+[7.016348] (-) TimerEvent: {}
+[7.118751] (-) TimerEvent: {}
+[7.219694] (-) TimerEvent: {}
+[7.320632] (-) TimerEvent: {}
+[7.420922] (-) TimerEvent: {}
+[7.522109] (-) TimerEvent: {}
+[7.622948] (-) TimerEvent: {}
+[7.723322] (-) TimerEvent: {}
+[7.826662] (-) TimerEvent: {}
+[7.927137] (-) TimerEvent: {}
+[8.027902] (-) TimerEvent: {}
+[8.128480] (-) TimerEvent: {}
+[8.232064] (-) TimerEvent: {}
+[8.332732] (-) TimerEvent: {}
+[8.434285] (-) TimerEvent: {}
+[8.537339] (-) TimerEvent: {}
+[8.638812] (-) TimerEvent: {}
+[8.739407] (-) TimerEvent: {}
+[8.841996] (-) TimerEvent: {}
+[8.942822] (-) TimerEvent: {}
+[9.043217] (-) TimerEvent: {}
+[9.143653] (-) TimerEvent: {}
+[9.244123] (-) TimerEvent: {}
+[9.344502] (-) TimerEvent: {}
+[9.444962] (-) TimerEvent: {}
+[9.545796] (-) TimerEvent: {}
+[9.646326] (-) TimerEvent: {}
+[9.746994] (-) TimerEvent: {}
+[9.847342] (-) TimerEvent: {}
+[9.947701] (-) TimerEvent: {}
+[10.048353] (-) TimerEvent: {}
+[10.148747] (-) TimerEvent: {}
+[10.249451] (-) TimerEvent: {}
+[10.350955] (-) TimerEvent: {}
+[10.452727] (-) TimerEvent: {}
+[10.556142] (-) TimerEvent: {}
+[10.657837] (-) TimerEvent: {}
+[10.764472] (-) TimerEvent: {}
+[10.867721] (-) TimerEvent: {}
+[10.968140] (-) TimerEvent: {}
+[11.068681] (-) TimerEvent: {}
+[11.169702] (-) TimerEvent: {}
+[11.270861] (-) TimerEvent: {}
+[11.373618] (-) TimerEvent: {}
+[11.474656] (-) TimerEvent: {}
+[11.577646] (-) TimerEvent: {}
+[11.678101] (-) TimerEvent: {}
+[11.778758] (-) TimerEvent: {}
+[11.879383] (-) TimerEvent: {}
+[11.980341] (-) TimerEvent: {}
+[12.082373] (-) TimerEvent: {}
+[12.182729] (-) TimerEvent: {}
+[12.283120] (-) TimerEvent: {}
+[12.384726] (-) TimerEvent: {}
+[12.485246] (-) TimerEvent: {}
+[12.588303] (-) TimerEvent: {}
+[12.689308] (-) TimerEvent: {}
+[12.798108] (-) TimerEvent: {}
+[12.899852] (-) TimerEvent: {}
+[13.002936] (-) TimerEvent: {}
+[13.103283] (-) TimerEvent: {}
+[13.204580] (-) TimerEvent: {}
+[13.305734] (-) TimerEvent: {}
+[13.409640] (-) TimerEvent: {}
+[13.511003] (-) TimerEvent: {}
+[13.612081] (-) TimerEvent: {}
+[13.712689] (-) TimerEvent: {}
+[13.814562] (-) TimerEvent: {}
+[13.918590] (-) TimerEvent: {}
+[14.019855] (-) TimerEvent: {}
+[14.120779] (-) TimerEvent: {}
+[14.225685] (-) TimerEvent: {}
+[14.326754] (-) TimerEvent: {}
+[14.430108] (-) TimerEvent: {}
+[14.536615] (-) TimerEvent: {}
+[14.638781] (-) TimerEvent: {}
+[14.739266] (-) TimerEvent: {}
+[14.841563] (-) TimerEvent: {}
+[14.942208] (-) TimerEvent: {}
+[15.048398] (-) TimerEvent: {}
+[15.149380] (-) TimerEvent: {}
+[15.251660] (-) TimerEvent: {}
+[15.352549] (-) TimerEvent: {}
+[15.459646] (-) TimerEvent: {}
+[15.560675] (-) TimerEvent: {}
+[15.661078] (-) TimerEvent: {}
+[15.762066] (-) TimerEvent: {}
+[15.864103] (-) TimerEvent: {}
+[15.965028] (-) TimerEvent: {}
+[16.065692] (-) TimerEvent: {}
+[16.166975] (-) TimerEvent: {}
+[16.267941] (-) TimerEvent: {}
+[16.368555] (-) TimerEvent: {}
+[16.469304] (-) TimerEvent: {}
+[16.577687] (-) TimerEvent: {}
+[16.679128] (-) TimerEvent: {}
+[16.779933] (-) TimerEvent: {}
+[16.880780] (-) TimerEvent: {}
+[16.981828] (-) TimerEvent: {}
+[17.082442] (-) TimerEvent: {}
+[17.182873] (-) TimerEvent: {}
+[17.283278] (-) TimerEvent: {}
+[17.386320] (-) TimerEvent: {}
+[17.491761] (-) TimerEvent: {}
+[17.594871] (-) TimerEvent: {}
+[17.695224] (-) TimerEvent: {}
+[17.795743] (-) TimerEvent: {}
+[17.896426] (-) TimerEvent: {}
+[17.997107] (-) TimerEvent: {}
+[18.097714] (-) TimerEvent: {}
+[18.198078] (-) TimerEvent: {}
+[18.299189] (-) TimerEvent: {}
+[18.399677] (-) TimerEvent: {}
+[18.500180] (-) TimerEvent: {}
+[18.600777] (-) TimerEvent: {}
+[18.701406] (-) TimerEvent: {}
+[18.801839] (-) TimerEvent: {}
+[18.902246] (-) TimerEvent: {}
+[19.004940] (-) TimerEvent: {}
+[19.106646] (-) TimerEvent: {}
+[19.207290] (-) TimerEvent: {}
+[19.310236] (-) TimerEvent: {}
+[19.411925] (-) TimerEvent: {}
+[19.512743] (-) TimerEvent: {}
+[19.613358] (-) TimerEvent: {}
+[19.714948] (-) TimerEvent: {}
+[19.816034] (-) TimerEvent: {}
+[19.917254] (-) TimerEvent: {}
+[20.026398] (-) TimerEvent: {}
+[20.128174] (-) TimerEvent: {}
+[20.229070] (-) TimerEvent: {}
+[20.329920] (-) TimerEvent: {}
+[20.434499] (-) TimerEvent: {}
+[20.535088] (-) TimerEvent: {}
+[20.639855] (-) TimerEvent: {}
+[20.740637] (-) TimerEvent: {}
+[20.840943] (-) TimerEvent: {}
+[20.941392] (-) TimerEvent: {}
+[21.048967] (-) TimerEvent: {}
+[21.149921] (-) TimerEvent: {}
+[21.250839] (-) TimerEvent: {}
+[21.354881] (-) TimerEvent: {}
+[21.457992] (-) TimerEvent: {}
+[21.558671] (-) TimerEvent: {}
+[21.659381] (-) TimerEvent: {}
+[21.759849] (-) TimerEvent: {}
+[21.860144] (-) TimerEvent: {}
+[21.961724] (-) TimerEvent: {}
+[22.063085] (-) TimerEvent: {}
+[22.165668] (-) TimerEvent: {}
+[22.268233] (-) TimerEvent: {}
+[22.368789] (-) TimerEvent: {}
+[22.475352] (-) TimerEvent: {}
+[22.576669] (-) TimerEvent: {}
+[22.677309] (-) TimerEvent: {}
+[22.779362] (-) TimerEvent: {}
+[22.881643] (-) TimerEvent: {}
+[22.982477] (-) TimerEvent: {}
+[23.084082] (-) TimerEvent: {}
+[23.186446] (-) TimerEvent: {}
+[23.287064] (-) TimerEvent: {}
+[23.389386] (-) TimerEvent: {}
+[23.490687] (-) TimerEvent: {}
+[23.592084] (-) TimerEvent: {}
+[23.693592] (-) TimerEvent: {}
+[23.794470] (-) TimerEvent: {}
+[23.896274] (-) TimerEvent: {}
+[23.997791] (-) TimerEvent: {}
+[24.098938] (-) TimerEvent: {}
+[24.199759] (-) TimerEvent: {}
+[24.300442] (-) TimerEvent: {}
+[24.400914] (-) TimerEvent: {}
+[24.501799] (-) TimerEvent: {}
+[24.602348] (-) TimerEvent: {}
+[24.704614] (-) TimerEvent: {}
+[24.805317] (-) TimerEvent: {}
+[24.907786] (-) TimerEvent: {}
+[25.008365] (-) TimerEvent: {}
+[25.109271] (-) TimerEvent: {}
+[25.209626] (-) TimerEvent: {}
+[25.310726] (-) TimerEvent: {}
+[25.412102] (-) TimerEvent: {}
+[25.515240] (-) TimerEvent: {}
+[25.615784] (-) TimerEvent: {}
+[25.723596] (-) TimerEvent: {}
+[25.824054] (-) TimerEvent: {}
+[25.926107] (-) TimerEvent: {}
+[26.028095] (-) TimerEvent: {}
+[26.129235] (-) TimerEvent: {}
+[26.229664] (-) TimerEvent: {}
+[26.329965] (-) TimerEvent: {}
+[26.430721] (-) TimerEvent: {}
+[26.531260] (-) TimerEvent: {}
+[26.631805] (-) TimerEvent: {}
+[26.732220] (-) TimerEvent: {}
+[26.832764] (-) TimerEvent: {}
+[26.933544] (-) TimerEvent: {}
+[27.034157] (-) TimerEvent: {}
+[27.134789] (-) TimerEvent: {}
+[27.235324] (-) TimerEvent: {}
+[27.335843] (-) TimerEvent: {}
+[27.436208] (-) TimerEvent: {}
+[27.542738] (-) TimerEvent: {}
+[27.644385] (-) TimerEvent: {}
+[27.744936] (-) TimerEvent: {}
+[27.847770] (-) TimerEvent: {}
+[27.949304] (-) TimerEvent: {}
+[28.049960] (-) TimerEvent: {}
+[28.150664] (-) TimerEvent: {}
+[28.251188] (-) TimerEvent: {}
+[28.351965] (-) TimerEvent: {}
+[28.459740] (-) TimerEvent: {}
+[28.560161] (-) TimerEvent: {}
+[28.660795] (-) TimerEvent: {}
+[28.762838] (-) TimerEvent: {}
+[28.863831] (-) TimerEvent: {}
+[28.965962] (-) TimerEvent: {}
+[29.066659] (-) TimerEvent: {}
+[29.168211] (-) TimerEvent: {}
+[29.268962] (-) TimerEvent: {}
+[29.369543] (-) TimerEvent: {}
+[29.473762] (-) TimerEvent: {}
+[29.574547] (-) TimerEvent: {}
+[29.675336] (-) TimerEvent: {}
+[29.777861] (-) TimerEvent: {}
+[29.879565] (-) TimerEvent: {}
+[29.979861] (-) TimerEvent: {}
+[30.004861] (pavlov_controller) JobEnded: {'identifier': 'pavlov_controller', 'rc': 0}
+[30.008500] (pavlov_description) Command: {'cmd': ['/usr/bin/ctest', '-C', 'Release', '-D', 'ExperimentalTest', '--no-compress-output', '-V', '--force-new-ctest-process'], 'cwd': '/home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_description', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/bengokaysaglam'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CODEX_CI', '1'), ('LANGUAGE', 'tr:en'), ('USER', 'bengokaysaglam'), ('SNAP_COMMON', '/var/snap/code/common'), ('LC_TIME', 'tr_TR.UTF-8'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"tr","osLocale":"tr","resolvedLanguage":"en","defaultMessagesFile":"/snap/code/240/usr/share/code/resources/app/out/nls.messages.json","locale":"tr","availableLanguages":{}}'), ('FONTCONFIG_PATH', '/etc/fonts'), ('GIO_MODULE_DIR', '/home/bengokaysaglam/snap/code/common/.cache/gio-modules'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'wayland'), ('DEBUG', 'release'), ('SNAP_UID', '1000'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/usr/local/lib:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_planning/lib:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_cpp_examples/lib:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_msgs/lib:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_motion/lib:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_firmware/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/ros/humble/lib'), ('HOME', '/home/bengokaysaglam'), ('CHROME_DESKTOP', 'code.desktop'), ('SNAP_LIBRARY_PATH', '/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32'), ('DESKTOP_SESSION', 'ubuntu'), ('SNAP_USER_DATA', '/home/bengokaysaglam/snap/code/240'), ('GTK_PATH', '/snap/code/240/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-e57e47ba-1.12-main.sock'), ('GTK_IM_MODULE_FILE', '/home/bengokaysaglam/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('COPILOT_OTEL_FILE_EXPORTER_PATH', '/dev/null'), ('MANAGERPID', '1811'), ('LC_CTYPE', 'C.UTF-8'), ('SYSTEMD_EXEC_PID', '1970'), ('IM_CONFIG_CHECK_ENV', '1'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('SNAP_REVISION', '240'), ('COLORTERM', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6365'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('VSCODE_L10N_BUNDLE_LOCATION', ''), ('COLCON_PREFIX_PATH', '/home/bengokaysaglam/bumperbot_ws/install'), ('APPLICATION_INSIGHTS_NO_STATSBEAT', 'true'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bengokaysaglam'), ('OTEL_INSTRUMENTATION_GENAI_CAPTURE_MESSAGE_CONTENT', 'true'), ('SNAP_CONTEXT', 'MVLE9pveWVw7KZEOzXhirRKT54SkIJmYJgWz6wKOiHNYgslS7b_T'), ('JOURNAL_STREAM', '8:10217'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('SNAP_VERSION', '0958016b'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('RUST_LOG', 'warn'), ('USERNAME', 'bengokaysaglam'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('SNAP_INSTANCE_NAME', 'code'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/bengokaysaglam/.local/bin:/home/bengokaysaglam/.codex/tmp/arg0/codex-arg027nQzB:/home/bengokaysaglam/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/bengokaysaglam/.vscode/extensions/openai.chatgpt-26.5513.21555-linux-x64/bin/linux-x86_64'), ('SESSION_MANAGER', 'local/Ubuntu1:@/tmp/.ICE-unix/1945,unix/Ubuntu1:/tmp/.ICE-unix/1945'), ('GTK_EXE_PREFIX', '/snap/code/240/usr'), ('INVOCATION_ID', 'ca50cebc4d534196a3434652bf20a011'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('SNAP_DATA', '/var/snap/code/240'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/240/usr/lib/locale'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'tr_TR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XDG_DATA_HOME', '/home/bengokaysaglam/snap/code/240/.local/share'), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.G7A5O3'), ('COPILOT_OTEL_ENABLED', 'true'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SNAP_USER_COMMON', '/home/bengokaysaglam/snap/code/common'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/bengokaysaglam/snap/code/240/.local/share/glib-2.0/schemas'), ('SNAP_ARCH', 'amd64'), ('AMENT_PREFIX_PATH', '/home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_utils:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_py_examples:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_planning:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_navigation:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_cpp_examples:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_msgs:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_motion:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_bringup:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_mapping:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_localization:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_firmware:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_description:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_controller:/opt/ros/humble'), ('SNAP_COOKIE', 'MVLE9pveWVw7KZEOzXhirRKT54SkIJmYJgWz6wKOiHNYgslS7b_T'), ('SHELL', '/bin/bash'), ('IGN_GAZEBO_SYSTEM_PLUGIN_PATH', ':/opt/ros/humble/lib'), ('LC_NAME', 'tr_TR.UTF-8'), ('GDK_PIXBUF_MODULEDIR', '/snap/code/240/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('FONTCONFIG_FILE', '/etc/fonts/fonts.conf'), ('SNAP_NAME', 'code'), ('CODEX_THREAD_ID', '019e4004-32e8-7f33-b6a3-df650168073f'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('GDK_PIXBUF_MODULE_FILE', '/home/bengokaysaglam/snap/code/common/.cache/gdk-pixbuf-loaders.cache'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('SNAP_LAUNCHER_ARCH_TRIPLET', 'x86_64-linux-gnu'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_description'), ('VSCODE_CLI', '1'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('SNAP_REAL_HOME', '/home/bengokaysaglam'), ('VSCODE_CODE_CACHE_PATH', '/home/bengokaysaglam/.config/Code/CachedData/0958016b2af9f09bb4257e0df4a95e2f90590f9f'), ('XDG_DATA_DIRS', '/home/bengokaysaglam/snap/code/240/.local/share:/home/bengokaysaglam/snap/code/240:/snap/code/240/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('SNAP_EUID', '1000'), ('PYTHONPATH', '/home/bengokaysaglam/bumperbot_ws/install/bumperbot_utils/local/lib/python3.10/dist-packages:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_planning/local/lib/python3.10/dist-packages:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_mapping/local/lib/python3.10/dist-packages:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('SNAP', '/snap/code/240'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('ELECTRON_NO_ATTACH_CONSOLE', '1'), ('CMAKE_PREFIX_PATH', '/home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_utils:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_planning:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_navigation:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_cpp_examples:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_msgs:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_motion:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_bringup:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_mapping:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_localization:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_firmware:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_description:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_controller'), ('VSCODE_PID', '3505'), ('COPILOT_OTEL_EXPORTER_TYPE', 'file')]), 'shell': False}
+[30.019247] (pavlov_description) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_description/CTestConfiguration.ini\n'}
+[30.019850] (pavlov_description) StdoutLine: {'line': b'Parse Config file:/home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_description/CTestConfiguration.ini\n'}
+[30.021009] (pavlov_description) StdoutLine: {'line': b'   Site: Ubuntu1\n'}
+[30.021088] (pavlov_description) StdoutLine: {'line': b'   Build name: (empty)\n'}
+[30.021134] (pavlov_description) StdoutLine: {'line': b' Add coverage exclude regular expressions.\n'}
+[30.021176] (pavlov_description) StdoutLine: {'line': b'Create new tag: 20260519-1147 - Experimental\n'}
+[30.021289] (pavlov_description) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_description/CTestConfiguration.ini\n'}
+[30.021461] (pavlov_description) StdoutLine: {'line': b'Parse Config file:/home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_description/CTestConfiguration.ini\n'}
+[30.021532] (pavlov_description) StdoutLine: {'line': b'Test project /home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_description\n'}
+[30.022138] (pavlov_description) StdoutLine: {'line': b'Constructing a list of tests\n'}
+[30.022194] (pavlov_description) StdoutLine: {'line': b'Done constructing a list of tests\n'}
+[30.022239] (pavlov_description) StdoutLine: {'line': b'Updating test list for fixtures\n'}
+[30.022291] (pavlov_description) StdoutLine: {'line': b'Added 0 tests to meet fixture requirements\n'}
+[30.022333] (pavlov_description) StdoutLine: {'line': b'Checking test dependency graph...\n'}
+[30.022372] (pavlov_description) StdoutLine: {'line': b'Checking test dependency graph end\n'}
+[30.022410] (pavlov_description) StdoutLine: {'line': b'test 1\n'}
+[30.022449] (pavlov_description) StdoutLine: {'line': b'    Start 1: flake8\n'}
+[30.022605] (pavlov_description) StdoutLine: {'line': b'\n'}
+[30.022682] (pavlov_description) StdoutLine: {'line': b'1: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_description/test_results/pavlov_description/flake8.xunit.xml" "--package-name" "pavlov_description" "--output-file" "/home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_description/ament_flake8/flake8.txt" "--command" "/opt/ros/humble/bin/ament_flake8" "--xunit-file" "/home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_description/test_results/pavlov_description/flake8.xunit.xml"\n'}
+[30.022731] (pavlov_description) StdoutLine: {'line': b'1: Test timeout computed to be: 60\n'}
+[30.080156] (-) TimerEvent: {}
+[30.089686] (pavlov_description) StdoutLine: {'line': b"1: -- run_test.py: invoking following command in '/home/bengokaysaglam/pavlov_mini_wheel/src/pavlov_description':\n"}
+[30.089928] (pavlov_description) StdoutLine: {'line': b'1:  - /opt/ros/humble/bin/ament_flake8 --xunit-file /home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_description/test_results/pavlov_description/flake8.xunit.xml\n'}
+[30.181127] (-) TimerEvent: {}
+[30.288972] (-) TimerEvent: {}
+[30.315968] (pavlov_description) StdoutLine: {'line': b'1: \n'}
+[30.316139] (pavlov_description) StdoutLine: {'line': b'1: 2 files checked\n'}
+[30.316204] (pavlov_description) StdoutLine: {'line': b'1: No problems found\n'}
+[30.316252] (pavlov_description) StdoutLine: {'line': b'1: \n'}
+[30.316294] (pavlov_description) StdoutLine: {'line': b'1: Checked files:\n'}
+[30.316332] (pavlov_description) StdoutLine: {'line': b'1: \n'}
+[30.316371] (pavlov_description) StdoutLine: {'line': b'1: * ./launch/display.launch.py\n'}
+[30.316409] (pavlov_description) StdoutLine: {'line': b'1: * ./launch/gazebo.launch.py\n'}
+[30.340790] (pavlov_description) StdoutLine: {'line': b'1: -- run_test.py: return code 0\n'}
+[30.342849] (pavlov_description) StdoutLine: {'line': b"1: -- run_test.py: verify result file '/home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_description/test_results/pavlov_description/flake8.xunit.xml'\n"}
+[30.367819] (pavlov_description) StdoutLine: {'line': b'1/4 Test #1: flake8 ...........................   Passed    0.34 sec\n'}
+[30.368082] (pavlov_description) StdoutLine: {'line': b'test 2\n'}
+[30.368153] (pavlov_description) StdoutLine: {'line': b'    Start 2: lint_cmake\n'}
+[30.368203] (pavlov_description) StdoutLine: {'line': b'\n'}
+[30.368246] (pavlov_description) StdoutLine: {'line': b'2: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_description/test_results/pavlov_description/lint_cmake.xunit.xml" "--package-name" "pavlov_description" "--output-file" "/home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_description/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/humble/bin/ament_lint_cmake" "--xunit-file" "/home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_description/test_results/pavlov_description/lint_cmake.xunit.xml"\n'}
+[30.368292] (pavlov_description) StdoutLine: {'line': b'2: Test timeout computed to be: 60\n'}
+[30.407913] (-) TimerEvent: {}
+[30.437175] (pavlov_description) StdoutLine: {'line': b"2: -- run_test.py: invoking following command in '/home/bengokaysaglam/pavlov_mini_wheel/src/pavlov_description':\n"}
+[30.437392] (pavlov_description) StdoutLine: {'line': b'2:  - /opt/ros/humble/bin/ament_lint_cmake --xunit-file /home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_description/test_results/pavlov_description/lint_cmake.xunit.xml\n'}
+[30.511672] (-) TimerEvent: {}
+[30.512181] (pavlov_description) StdoutLine: {'line': b'2: \n'}
+[30.512596] (pavlov_description) StdoutLine: {'line': b'2: No problems found\n'}
+[30.526547] (pavlov_description) StdoutLine: {'line': b'2: -- run_test.py: return code 0\n'}
+[30.526910] (pavlov_description) StdoutLine: {'line': b"2: -- run_test.py: verify result file '/home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_description/test_results/pavlov_description/lint_cmake.xunit.xml'\n"}
+[30.537384] (pavlov_description) StdoutLine: {'line': b'2/4 Test #2: lint_cmake .......................   Passed    0.17 sec\n'}
+[30.537913] (pavlov_description) StdoutLine: {'line': b'test 3\n'}
+[30.538099] (pavlov_description) StdoutLine: {'line': b'    Start 3: pep257\n'}
+[30.538167] (pavlov_description) StdoutLine: {'line': b'\n'}
+[30.538217] (pavlov_description) StdoutLine: {'line': b'3: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_description/test_results/pavlov_description/pep257.xunit.xml" "--package-name" "pavlov_description" "--output-file" "/home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_description/ament_pep257/pep257.txt" "--command" "/opt/ros/humble/bin/ament_pep257" "--xunit-file" "/home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_description/test_results/pavlov_description/pep257.xunit.xml"\n'}
+[30.538266] (pavlov_description) StdoutLine: {'line': b'3: Test timeout computed to be: 60\n'}
+[30.612713] (-) TimerEvent: {}
+[30.613180] (pavlov_description) StdoutLine: {'line': b"3: -- run_test.py: invoking following command in '/home/bengokaysaglam/pavlov_mini_wheel/src/pavlov_description':\n"}
+[30.613365] (pavlov_description) StdoutLine: {'line': b'3:  - /opt/ros/humble/bin/ament_pep257 --xunit-file /home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_description/test_results/pavlov_description/pep257.xunit.xml\n'}
+[30.714690] (-) TimerEvent: {}
+[30.751643] (pavlov_description) StdoutLine: {'line': b'3: checking ./launch/display.launch.py\n'}
+[30.751860] (pavlov_description) StdoutLine: {'line': b'3: checking ./launch/gazebo.launch.py\n'}
+[30.751913] (pavlov_description) StdoutLine: {'line': b'3: No problems found\n'}
+[30.769137] (pavlov_description) StdoutLine: {'line': b'3: -- run_test.py: return code 0\n'}
+[30.769457] (pavlov_description) StdoutLine: {'line': b"3: -- run_test.py: verify result file '/home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_description/test_results/pavlov_description/pep257.xunit.xml'\n"}
+[30.778089] (pavlov_description) StdoutLine: {'line': b'3/4 Test #3: pep257 ...........................   Passed    0.24 sec\n'}
+[30.778330] (pavlov_description) StdoutLine: {'line': b'test 4\n'}
+[30.778383] (pavlov_description) StdoutLine: {'line': b'    Start 4: xmllint\n'}
+[30.778626] (pavlov_description) StdoutLine: {'line': b'\n'}
+[30.778708] (pavlov_description) StdoutLine: {'line': b'4: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_description/test_results/pavlov_description/xmllint.xunit.xml" "--package-name" "pavlov_description" "--output-file" "/home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_description/ament_xmllint/xmllint.txt" "--command" "/opt/ros/humble/bin/ament_xmllint" "--xunit-file" "/home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_description/test_results/pavlov_description/xmllint.xunit.xml"\n'}
+[30.778761] (pavlov_description) StdoutLine: {'line': b'4: Test timeout computed to be: 60\n'}
+[30.815732] (-) TimerEvent: {}
+[30.847179] (pavlov_description) StdoutLine: {'line': b"4: -- run_test.py: invoking following command in '/home/bengokaysaglam/pavlov_mini_wheel/src/pavlov_description':\n"}
+[30.847397] (pavlov_description) StdoutLine: {'line': b'4:  - /opt/ros/humble/bin/ament_xmllint --xunit-file /home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_description/test_results/pavlov_description/xmllint.xunit.xml\n'}
+[30.916117] (-) TimerEvent: {}
+[30.933730] (pavlov_description) StdoutLine: {'line': b"4: File 'package.xml' is valid\n"}
+[30.933995] (pavlov_description) StdoutLine: {'line': b'4: \n'}
+[30.934195] (pavlov_description) StdoutLine: {'line': b'4: No problems found\n'}
+[30.948719] (pavlov_description) StdoutLine: {'line': b'4: -- run_test.py: return code 0\n'}
+[30.949993] (pavlov_description) StdoutLine: {'line': b"4: -- run_test.py: verify result file '/home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_description/test_results/pavlov_description/xmllint.xunit.xml'\n"}
+[30.955537] (pavlov_description) StdoutLine: {'line': b'4/4 Test #4: xmllint ..........................   Passed    0.18 sec\n'}
+[30.956844] (pavlov_description) StdoutLine: {'line': b'\n'}
+[30.956938] (pavlov_description) StdoutLine: {'line': b'100% tests passed, 0 tests failed out of 4\n'}
+[30.957058] (pavlov_description) StdoutLine: {'line': b'\n'}
+[30.957113] (pavlov_description) StdoutLine: {'line': b'Label Time Summary:\n'}
+[30.957157] (pavlov_description) StdoutLine: {'line': b'flake8        =   0.34 sec*proc (1 test)\n'}
+[30.957200] (pavlov_description) StdoutLine: {'line': b'lint_cmake    =   0.17 sec*proc (1 test)\n'}
+[30.957243] (pavlov_description) StdoutLine: {'line': b'linter        =   0.93 sec*proc (4 tests)\n'}
+[30.957329] (pavlov_description) StdoutLine: {'line': b'pep257        =   0.24 sec*proc (1 test)\n'}
+[30.957378] (pavlov_description) StdoutLine: {'line': b'xmllint       =   0.18 sec*proc (1 test)\n'}
+[30.957421] (pavlov_description) StdoutLine: {'line': b'\n'}
+[30.957462] (pavlov_description) StdoutLine: {'line': b'Total Test time (real) =   0.94 sec\n'}
+[31.016330] (-) TimerEvent: {}
+[31.118298] (-) TimerEvent: {}
+[31.218800] (-) TimerEvent: {}
+[31.320809] (-) TimerEvent: {}
+[31.422759] (-) TimerEvent: {}
+[31.523893] (-) TimerEvent: {}
+[31.627053] (-) TimerEvent: {}
+[31.728164] (-) TimerEvent: {}
+[31.828740] (-) TimerEvent: {}
+[31.929382] (-) TimerEvent: {}
+[32.029878] (-) TimerEvent: {}
+[32.130485] (-) TimerEvent: {}
+[32.231599] (-) TimerEvent: {}
+[32.332003] (-) TimerEvent: {}
+[32.437781] (-) TimerEvent: {}
+[32.542987] (-) TimerEvent: {}
+[32.643213] (-) TimerEvent: {}
+[32.744495] (-) TimerEvent: {}
+[32.844813] (-) TimerEvent: {}
+[32.945078] (-) TimerEvent: {}
+[33.047822] (-) TimerEvent: {}
+[33.148690] (-) TimerEvent: {}
+[33.249652] (-) TimerEvent: {}
+[33.350646] (-) TimerEvent: {}
+[33.457755] (-) TimerEvent: {}
+[33.558865] (-) TimerEvent: {}
+[33.659342] (-) TimerEvent: {}
+[33.761671] (-) TimerEvent: {}
+[33.863252] (-) TimerEvent: {}
+[33.964181] (-) TimerEvent: {}
+[34.064766] (-) TimerEvent: {}
+[34.165932] (-) TimerEvent: {}
+[34.266226] (-) TimerEvent: {}
+[34.366801] (-) TimerEvent: {}
+[34.469996] (-) TimerEvent: {}
+[34.570704] (-) TimerEvent: {}
+[34.671241] (-) TimerEvent: {}
+[34.771955] (-) TimerEvent: {}
+[34.872449] (-) TimerEvent: {}
+[34.973294] (-) TimerEvent: {}
+[35.074513] (-) TimerEvent: {}
+[35.175052] (-) TimerEvent: {}
+[35.275444] (-) TimerEvent: {}
+[35.375960] (-) TimerEvent: {}
+[35.476483] (-) TimerEvent: {}
+[35.577018] (-) TimerEvent: {}
+[35.680685] (-) TimerEvent: {}
+[35.781215] (-) TimerEvent: {}
+[35.882938] (-) TimerEvent: {}
+[35.986097] (-) TimerEvent: {}
+[36.087144] (-) TimerEvent: {}
+[36.187764] (-) TimerEvent: {}
+[36.288819] (-) TimerEvent: {}
+[36.390040] (-) TimerEvent: {}
+[36.490722] (-) TimerEvent: {}
+[36.594819] (-) TimerEvent: {}
+[36.697021] (-) TimerEvent: {}
+[36.798055] (-) TimerEvent: {}
+[36.898417] (-) TimerEvent: {}
+[36.998942] (-) TimerEvent: {}
+[37.099435] (-) TimerEvent: {}
+[37.206569] (-) TimerEvent: {}
+[37.313255] (-) TimerEvent: {}
+[37.414719] (-) TimerEvent: {}
+[37.516412] (-) TimerEvent: {}
+[37.617921] (-) TimerEvent: {}
+[37.718853] (-) TimerEvent: {}
+[37.819406] (-) TimerEvent: {}
+[37.919764] (-) TimerEvent: {}
+[38.020703] (-) TimerEvent: {}
+[38.121248] (-) TimerEvent: {}
+[38.221763] (-) TimerEvent: {}
+[38.331251] (-) TimerEvent: {}
+[38.432253] (-) TimerEvent: {}
+[38.533164] (-) TimerEvent: {}
+[38.633707] (-) TimerEvent: {}
+[38.735060] (-) TimerEvent: {}
+[38.839786] (-) TimerEvent: {}
+[38.940294] (-) TimerEvent: {}
+[39.040781] (-) TimerEvent: {}
+[39.141503] (-) TimerEvent: {}
+[39.242233] (-) TimerEvent: {}
+[39.343007] (-) TimerEvent: {}
+[39.443743] (-) TimerEvent: {}
+[39.545153] (-) TimerEvent: {}
+[39.670822] (-) TimerEvent: {}
+[39.772016] (-) TimerEvent: {}
+[39.876112] (-) TimerEvent: {}
+[39.976948] (-) TimerEvent: {}
+[40.077650] (-) TimerEvent: {}
+[40.178657] (-) TimerEvent: {}
+[40.279962] (-) TimerEvent: {}
+[40.380704] (-) TimerEvent: {}
+[40.482812] (-) TimerEvent: {}
+[40.585878] (-) TimerEvent: {}
+[40.688915] (-) TimerEvent: {}
+[40.789409] (-) TimerEvent: {}
+[40.890278] (-) TimerEvent: {}
+[40.990927] (-) TimerEvent: {}
+[41.091297] (-) TimerEvent: {}
+[41.191832] (-) TimerEvent: {}
+[41.292859] (-) TimerEvent: {}
+[41.394230] (-) TimerEvent: {}
+[41.495436] (-) TimerEvent: {}
+[41.600609] (-) TimerEvent: {}
+[41.701728] (-) TimerEvent: {}
+[41.802280] (-) TimerEvent: {}
+[41.903699] (-) TimerEvent: {}
+[42.004102] (-) TimerEvent: {}
+[42.106743] (-) TimerEvent: {}
+[42.209638] (-) TimerEvent: {}
+[42.310009] (-) TimerEvent: {}
+[42.411762] (-) TimerEvent: {}
+[42.512115] (-) TimerEvent: {}
+[42.619702] (-) TimerEvent: {}
+[42.721166] (-) TimerEvent: {}
+[42.821748] (-) TimerEvent: {}
+[42.923341] (-) TimerEvent: {}
+[43.023709] (-) TimerEvent: {}
+[43.124280] (-) TimerEvent: {}
+[43.228225] (-) TimerEvent: {}
+[43.329507] (-) TimerEvent: {}
+[43.431011] (-) TimerEvent: {}
+[43.534722] (-) TimerEvent: {}
+[43.637870] (-) TimerEvent: {}
+[43.745828] (-) TimerEvent: {}
+[43.849139] (-) TimerEvent: {}
+[43.952512] (-) TimerEvent: {}
+[44.053511] (-) TimerEvent: {}
+[44.154664] (-) TimerEvent: {}
+[44.255136] (-) TimerEvent: {}
+[44.355809] (-) TimerEvent: {}
+[44.456411] (-) TimerEvent: {}
+[44.556991] (-) TimerEvent: {}
+[44.660882] (-) TimerEvent: {}
+[44.762231] (-) TimerEvent: {}
+[44.863139] (-) TimerEvent: {}
+[44.963663] (-) TimerEvent: {}
+[45.066639] (-) TimerEvent: {}
+[45.167297] (-) TimerEvent: {}
+[45.267902] (-) TimerEvent: {}
+[45.368934] (-) TimerEvent: {}
+[45.469384] (-) TimerEvent: {}
+[45.569888] (-) TimerEvent: {}
+[45.672308] (-) TimerEvent: {}
+[45.775675] (-) TimerEvent: {}
+[45.877019] (-) TimerEvent: {}
+[45.978981] (-) TimerEvent: {}
+[46.081753] (-) TimerEvent: {}
+[46.182858] (-) TimerEvent: {}
+[46.283273] (-) TimerEvent: {}
+[46.383984] (-) TimerEvent: {}
+[46.484323] (-) TimerEvent: {}
+[46.584881] (-) TimerEvent: {}
+[46.686684] (-) TimerEvent: {}
+[46.787032] (-) TimerEvent: {}
+[46.887677] (-) TimerEvent: {}
+[46.988376] (-) TimerEvent: {}
+[47.088999] (-) TimerEvent: {}
+[47.189529] (-) TimerEvent: {}
+[47.290325] (-) TimerEvent: {}
+[47.392126] (-) TimerEvent: {}
+[47.492605] (-) TimerEvent: {}
+[47.593796] (-) TimerEvent: {}
+[47.696128] (-) TimerEvent: {}
+[47.800283] (-) TimerEvent: {}
+[47.902636] (-) TimerEvent: {}
+[48.010795] (-) TimerEvent: {}
+[48.112283] (-) TimerEvent: {}
+[48.212742] (-) TimerEvent: {}
+[48.313024] (-) TimerEvent: {}
+[48.413837] (-) TimerEvent: {}
+[48.514821] (-) TimerEvent: {}
+[48.617627] (-) TimerEvent: {}
+[48.718602] (-) TimerEvent: {}
+[48.821957] (-) TimerEvent: {}
+[48.923679] (-) TimerEvent: {}
+[49.024237] (-) TimerEvent: {}
+[49.125747] (-) TimerEvent: {}
+[49.226324] (-) TimerEvent: {}
+[49.326649] (-) TimerEvent: {}
+[49.427176] (-) TimerEvent: {}
+[49.530797] (-) TimerEvent: {}
+[49.631641] (-) TimerEvent: {}
+[49.734854] (-) TimerEvent: {}
+[49.835204] (-) TimerEvent: {}
+[49.937419] (-) TimerEvent: {}
+[50.037835] (-) TimerEvent: {}
+[50.139104] (-) TimerEvent: {}
+[50.241341] (-) TimerEvent: {}
+[50.349324] (-) TimerEvent: {}
+[50.451584] (-) TimerEvent: {}
+[50.552269] (-) TimerEvent: {}
+[50.653065] (-) TimerEvent: {}
+[50.753718] (-) TimerEvent: {}
+[50.854250] (-) TimerEvent: {}
+[50.955073] (-) TimerEvent: {}
+[51.057248] (-) TimerEvent: {}
+[51.158367] (-) TimerEvent: {}
+[51.258772] (-) TimerEvent: {}
+[51.359160] (-) TimerEvent: {}
+[51.459817] (-) TimerEvent: {}
+[51.560361] (-) TimerEvent: {}
+[51.661004] (-) TimerEvent: {}
+[51.761431] (-) TimerEvent: {}
+[51.864950] (-) TimerEvent: {}
+[51.965615] (-) TimerEvent: {}
+[52.066168] (-) TimerEvent: {}
+[52.166687] (-) TimerEvent: {}
+[52.270663] (-) TimerEvent: {}
+[52.371162] (-) TimerEvent: {}
+[52.473289] (-) TimerEvent: {}
+[52.574385] (-) TimerEvent: {}
+[52.675716] (-) TimerEvent: {}
+[52.776587] (-) TimerEvent: {}
+[52.877623] (-) TimerEvent: {}
+[52.979081] (-) TimerEvent: {}
+[53.079788] (-) TimerEvent: {}
+[53.180094] (-) TimerEvent: {}
+[53.285474] (-) TimerEvent: {}
+[53.386504] (-) TimerEvent: {}
+[53.487153] (-) TimerEvent: {}
+[53.589727] (-) TimerEvent: {}
+[53.691130] (-) TimerEvent: {}
+[53.791978] (-) TimerEvent: {}
+[53.892488] (-) TimerEvent: {}
+[53.995267] (-) TimerEvent: {}
+[54.097067] (-) TimerEvent: {}
+[54.200139] (-) TimerEvent: {}
+[54.301664] (-) TimerEvent: {}
+[54.402290] (-) TimerEvent: {}
+[54.507727] (-) TimerEvent: {}
+[54.611573] (-) TimerEvent: {}
+[54.711956] (-) TimerEvent: {}
+[54.812556] (-) TimerEvent: {}
+[54.916725] (-) TimerEvent: {}
+[55.017618] (-) TimerEvent: {}
+[55.122171] (-) TimerEvent: {}
+[55.223659] (-) TimerEvent: {}
+[55.326436] (-) TimerEvent: {}
+[55.427512] (-) TimerEvent: {}
+[55.528075] (-) TimerEvent: {}
+[55.629251] (-) TimerEvent: {}
+[55.729932] (-) TimerEvent: {}
+[55.831677] (-) TimerEvent: {}
+[55.932684] (-) TimerEvent: {}
+[56.033621] (-) TimerEvent: {}
+[56.134211] (-) TimerEvent: {}
+[56.234605] (-) TimerEvent: {}
+[56.335200] (-) TimerEvent: {}
+[56.436113] (-) TimerEvent: {}
+[56.537246] (-) TimerEvent: {}
+[56.641261] (-) TimerEvent: {}
+[56.741900] (-) TimerEvent: {}
+[56.842300] (-) TimerEvent: {}
+[56.942674] (-) TimerEvent: {}
+[57.047131] (-) TimerEvent: {}
+[57.147702] (-) TimerEvent: {}
+[57.248712] (-) TimerEvent: {}
+[57.349652] (-) TimerEvent: {}
+[57.453192] (-) TimerEvent: {}
+[57.555227] (-) TimerEvent: {}
+[57.656732] (-) TimerEvent: {}
+[57.760675] (-) TimerEvent: {}
+[57.861689] (-) TimerEvent: {}
+[57.962886] (-) TimerEvent: {}
+[58.064639] (-) TimerEvent: {}
+[58.165435] (-) TimerEvent: {}
+[58.266363] (-) TimerEvent: {}
+[58.366866] (-) TimerEvent: {}
+[58.467653] (-) TimerEvent: {}
+[58.568189] (-) TimerEvent: {}
+[58.670812] (-) TimerEvent: {}
+[58.774002] (-) TimerEvent: {}
+[58.881712] (-) TimerEvent: {}
+[58.983132] (-) TimerEvent: {}
+[59.084057] (-) TimerEvent: {}
+[59.184410] (-) TimerEvent: {}
+[59.285296] (-) TimerEvent: {}
+[59.385968] (-) TimerEvent: {}
+[59.486250] (-) TimerEvent: {}
+[59.587347] (-) TimerEvent: {}
+[59.688671] (-) TimerEvent: {}
+[59.789493] (-) TimerEvent: {}
+[59.890042] (-) TimerEvent: {}
+[59.990725] (-) TimerEvent: {}
+[60.038913] (pavlov_description) CommandEnded: {'returncode': 0}
+[60.039724] (pavlov_description) JobEnded: {'identifier': 'pavlov_description', 'rc': 0}
+[60.041275] (-) EventReactorShutdown: {}

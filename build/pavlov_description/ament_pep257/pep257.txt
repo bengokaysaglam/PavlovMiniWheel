@@ -1,0 +1,10 @@
+-- run_test.py: invoking following command in '/home/bengokaysaglam/pavlov_mini_wheel/src/pavlov_description':
+ - /opt/ros/humble/bin/ament_pep257 --xunit-file /home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_description/test_results/pavlov_description/pep257.xunit.xml
+
+checking ./launch/display.launch.py
+checking ./launch/gazebo.launch.py
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_description/test_results/pavlov_description/pep257.xunit.xml'

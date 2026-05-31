@@ -1,0 +1,9 @@
+-- run_test.py: invoking following command in '/home/bengokaysaglam/pavlov_mini_wheel/src/pavlov_description':
+ - /opt/ros/humble/bin/ament_lint_cmake --xunit-file /home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_description/test_results/pavlov_description/lint_cmake.xunit.xml
+
+
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_description/test_results/pavlov_description/lint_cmake.xunit.xml'

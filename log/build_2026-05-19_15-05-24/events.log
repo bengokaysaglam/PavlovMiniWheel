@@ -1,0 +1,706 @@
+[0.000000] (-) TimerEvent: {}
+[0.000066] (pavlov_controller) JobQueued: {'identifier': 'pavlov_controller', 'dependencies': OrderedDict()}
+[0.000143] (pavlov_description) JobQueued: {'identifier': 'pavlov_description', 'dependencies': OrderedDict()}
+[0.000447] (pavlov_controller) JobStarted: {'identifier': 'pavlov_controller'}
+[0.011645] (pavlov_description) JobStarted: {'identifier': 'pavlov_description'}
+[0.023469] (pavlov_controller) JobProgress: {'identifier': 'pavlov_controller', 'progress': 'cmake'}
+[0.024189] (pavlov_controller) JobProgress: {'identifier': 'pavlov_controller', 'progress': 'build'}
+[0.024219] (pavlov_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_controller', '--', '-j6', '-l6'], 'cwd': '/home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_controller', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/bengokaysaglam'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CODEX_CI', '1'), ('LANGUAGE', 'tr:en'), ('USER', 'bengokaysaglam'), ('SNAP_COMMON', '/var/snap/code/common'), ('LC_TIME', 'tr_TR.UTF-8'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"tr","osLocale":"tr","resolvedLanguage":"en","defaultMessagesFile":"/snap/code/240/usr/share/code/resources/app/out/nls.messages.json","locale":"tr","availableLanguages":{}}'), ('FONTCONFIG_PATH', '/etc/fonts'), ('GIO_MODULE_DIR', '/home/bengokaysaglam/snap/code/common/.cache/gio-modules'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'wayland'), ('DEBUG', 'release'), ('SNAP_UID', '1000'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/usr/local/lib:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_planning/lib:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_cpp_examples/lib:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_msgs/lib:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_motion/lib:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_firmware/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/ros/humble/lib'), ('HOME', '/home/bengokaysaglam'), ('CHROME_DESKTOP', 'code.desktop'), ('SNAP_LIBRARY_PATH', '/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32'), ('DESKTOP_SESSION', 'ubuntu'), ('SNAP_USER_DATA', '/home/bengokaysaglam/snap/code/240'), ('GTK_PATH', '/snap/code/240/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-e57e47ba-1.12-main.sock'), ('GTK_IM_MODULE_FILE', '/home/bengokaysaglam/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('COPILOT_OTEL_FILE_EXPORTER_PATH', '/dev/null'), ('MANAGERPID', '1811'), ('LC_CTYPE', 'C.UTF-8'), ('SYSTEMD_EXEC_PID', '1970'), ('IM_CONFIG_CHECK_ENV', '1'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('SNAP_REVISION', '240'), ('COLORTERM', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6365'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('VSCODE_L10N_BUNDLE_LOCATION', ''), ('COLCON_PREFIX_PATH', '/home/bengokaysaglam/bumperbot_ws/install'), ('APPLICATION_INSIGHTS_NO_STATSBEAT', 'true'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bengokaysaglam'), ('OTEL_INSTRUMENTATION_GENAI_CAPTURE_MESSAGE_CONTENT', 'true'), ('SNAP_CONTEXT', 'MVLE9pveWVw7KZEOzXhirRKT54SkIJmYJgWz6wKOiHNYgslS7b_T'), ('JOURNAL_STREAM', '8:10217'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('SNAP_VERSION', '0958016b'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('RUST_LOG', 'warn'), ('USERNAME', 'bengokaysaglam'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('SNAP_INSTANCE_NAME', 'code'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/bengokaysaglam/.local/bin:/home/bengokaysaglam/.codex/tmp/arg0/codex-arg027nQzB:/home/bengokaysaglam/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/bengokaysaglam/.vscode/extensions/openai.chatgpt-26.5513.21555-linux-x64/bin/linux-x86_64'), ('SESSION_MANAGER', 'local/Ubuntu1:@/tmp/.ICE-unix/1945,unix/Ubuntu1:/tmp/.ICE-unix/1945'), ('GTK_EXE_PREFIX', '/snap/code/240/usr'), ('INVOCATION_ID', 'ca50cebc4d534196a3434652bf20a011'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('SNAP_DATA', '/var/snap/code/240'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/240/usr/lib/locale'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'tr_TR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XDG_DATA_HOME', '/home/bengokaysaglam/snap/code/240/.local/share'), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.G7A5O3'), ('COPILOT_OTEL_ENABLED', 'true'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SNAP_USER_COMMON', '/home/bengokaysaglam/snap/code/common'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/bengokaysaglam/snap/code/240/.local/share/glib-2.0/schemas'), ('SNAP_ARCH', 'amd64'), ('AMENT_PREFIX_PATH', '/home/bengokaysaglam/bumperbot_ws/install/bumperbot_utils:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_py_examples:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_planning:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_navigation:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_cpp_examples:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_msgs:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_motion:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_bringup:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_mapping:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_localization:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_firmware:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_description:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_controller:/opt/ros/humble'), ('SNAP_COOKIE', 'MVLE9pveWVw7KZEOzXhirRKT54SkIJmYJgWz6wKOiHNYgslS7b_T'), ('SHELL', '/bin/bash'), ('IGN_GAZEBO_SYSTEM_PLUGIN_PATH', ':/opt/ros/humble/lib'), ('LC_NAME', 'tr_TR.UTF-8'), ('GDK_PIXBUF_MODULEDIR', '/snap/code/240/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('FONTCONFIG_FILE', '/etc/fonts/fonts.conf'), ('SNAP_NAME', 'code'), ('CODEX_THREAD_ID', '019e4004-32e8-7f33-b6a3-df650168073f'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('GDK_PIXBUF_MODULE_FILE', '/home/bengokaysaglam/snap/code/common/.cache/gdk-pixbuf-loaders.cache'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('SNAP_LAUNCHER_ARCH_TRIPLET', 'x86_64-linux-gnu'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_controller'), ('VSCODE_CLI', '1'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('SNAP_REAL_HOME', '/home/bengokaysaglam'), ('VSCODE_CODE_CACHE_PATH', '/home/bengokaysaglam/.config/Code/CachedData/0958016b2af9f09bb4257e0df4a95e2f90590f9f'), ('XDG_DATA_DIRS', '/home/bengokaysaglam/snap/code/240/.local/share:/home/bengokaysaglam/snap/code/240:/snap/code/240/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('SNAP_EUID', '1000'), ('PYTHONPATH', '/home/bengokaysaglam/bumperbot_ws/install/bumperbot_utils/local/lib/python3.10/dist-packages:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_planning/local/lib/python3.10/dist-packages:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_mapping/local/lib/python3.10/dist-packages:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('SNAP', '/snap/code/240'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('ELECTRON_NO_ATTACH_CONSOLE', '1'), ('CMAKE_PREFIX_PATH', '/home/bengokaysaglam/bumperbot_ws/install/bumperbot_utils:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_planning:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_navigation:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_cpp_examples:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_msgs:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_motion:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_bringup:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_mapping:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_localization:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_firmware:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_description:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_controller:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble'), ('VSCODE_PID', '3505'), ('COPILOT_OTEL_EXPORTER_TYPE', 'file')]), 'shell': False}
+[0.070735] (pavlov_controller) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.071305] (pavlov_description) JobProgress: {'identifier': 'pavlov_description', 'progress': 'cmake'}
+[0.072452] (pavlov_description) JobProgress: {'identifier': 'pavlov_description', 'progress': 'build'}
+[0.072583] (pavlov_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_description', '--', '-j6', '-l6'], 'cwd': '/home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_description', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/bengokaysaglam'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CODEX_CI', '1'), ('LANGUAGE', 'tr:en'), ('USER', 'bengokaysaglam'), ('SNAP_COMMON', '/var/snap/code/common'), ('LC_TIME', 'tr_TR.UTF-8'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"tr","osLocale":"tr","resolvedLanguage":"en","defaultMessagesFile":"/snap/code/240/usr/share/code/resources/app/out/nls.messages.json","locale":"tr","availableLanguages":{}}'), ('FONTCONFIG_PATH', '/etc/fonts'), ('GIO_MODULE_DIR', '/home/bengokaysaglam/snap/code/common/.cache/gio-modules'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'wayland'), ('DEBUG', 'release'), ('SNAP_UID', '1000'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/usr/local/lib:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_planning/lib:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_cpp_examples/lib:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_msgs/lib:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_motion/lib:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_firmware/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/ros/humble/lib'), ('HOME', '/home/bengokaysaglam'), ('CHROME_DESKTOP', 'code.desktop'), ('SNAP_LIBRARY_PATH', '/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32'), ('DESKTOP_SESSION', 'ubuntu'), ('SNAP_USER_DATA', '/home/bengokaysaglam/snap/code/240'), ('GTK_PATH', '/snap/code/240/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-e57e47ba-1.12-main.sock'), ('GTK_IM_MODULE_FILE', '/home/bengokaysaglam/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('COPILOT_OTEL_FILE_EXPORTER_PATH', '/dev/null'), ('MANAGERPID', '1811'), ('LC_CTYPE', 'C.UTF-8'), ('SYSTEMD_EXEC_PID', '1970'), ('IM_CONFIG_CHECK_ENV', '1'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('SNAP_REVISION', '240'), ('COLORTERM', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6365'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('VSCODE_L10N_BUNDLE_LOCATION', ''), ('COLCON_PREFIX_PATH', '/home/bengokaysaglam/bumperbot_ws/install'), ('APPLICATION_INSIGHTS_NO_STATSBEAT', 'true'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bengokaysaglam'), ('OTEL_INSTRUMENTATION_GENAI_CAPTURE_MESSAGE_CONTENT', 'true'), ('SNAP_CONTEXT', 'MVLE9pveWVw7KZEOzXhirRKT54SkIJmYJgWz6wKOiHNYgslS7b_T'), ('JOURNAL_STREAM', '8:10217'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('SNAP_VERSION', '0958016b'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('RUST_LOG', 'warn'), ('USERNAME', 'bengokaysaglam'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('SNAP_INSTANCE_NAME', 'code'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/bengokaysaglam/.local/bin:/home/bengokaysaglam/.codex/tmp/arg0/codex-arg027nQzB:/home/bengokaysaglam/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/bengokaysaglam/.vscode/extensions/openai.chatgpt-26.5513.21555-linux-x64/bin/linux-x86_64'), ('SESSION_MANAGER', 'local/Ubuntu1:@/tmp/.ICE-unix/1945,unix/Ubuntu1:/tmp/.ICE-unix/1945'), ('GTK_EXE_PREFIX', '/snap/code/240/usr'), ('INVOCATION_ID', 'ca50cebc4d534196a3434652bf20a011'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('SNAP_DATA', '/var/snap/code/240'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/240/usr/lib/locale'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'tr_TR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XDG_DATA_HOME', '/home/bengokaysaglam/snap/code/240/.local/share'), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.G7A5O3'), ('COPILOT_OTEL_ENABLED', 'true'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SNAP_USER_COMMON', '/home/bengokaysaglam/snap/code/common'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/bengokaysaglam/snap/code/240/.local/share/glib-2.0/schemas'), ('SNAP_ARCH', 'amd64'), ('AMENT_PREFIX_PATH', '/home/bengokaysaglam/bumperbot_ws/install/bumperbot_utils:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_py_examples:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_planning:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_navigation:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_cpp_examples:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_msgs:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_motion:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_bringup:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_mapping:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_localization:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_firmware:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_description:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_controller:/opt/ros/humble'), ('SNAP_COOKIE', 'MVLE9pveWVw7KZEOzXhirRKT54SkIJmYJgWz6wKOiHNYgslS7b_T'), ('SHELL', '/bin/bash'), ('IGN_GAZEBO_SYSTEM_PLUGIN_PATH', ':/opt/ros/humble/lib'), ('LC_NAME', 'tr_TR.UTF-8'), ('GDK_PIXBUF_MODULEDIR', '/snap/code/240/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('FONTCONFIG_FILE', '/etc/fonts/fonts.conf'), ('SNAP_NAME', 'code'), ('CODEX_THREAD_ID', '019e4004-32e8-7f33-b6a3-df650168073f'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('GDK_PIXBUF_MODULE_FILE', '/home/bengokaysaglam/snap/code/common/.cache/gdk-pixbuf-loaders.cache'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('SNAP_LAUNCHER_ARCH_TRIPLET', 'x86_64-linux-gnu'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_description'), ('VSCODE_CLI', '1'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('SNAP_REAL_HOME', '/home/bengokaysaglam'), ('VSCODE_CODE_CACHE_PATH', '/home/bengokaysaglam/.config/Code/CachedData/0958016b2af9f09bb4257e0df4a95e2f90590f9f'), ('XDG_DATA_DIRS', '/home/bengokaysaglam/snap/code/240/.local/share:/home/bengokaysaglam/snap/code/240:/snap/code/240/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('SNAP_EUID', '1000'), ('PYTHONPATH', '/home/bengokaysaglam/bumperbot_ws/install/bumperbot_utils/local/lib/python3.10/dist-packages:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_planning/local/lib/python3.10/dist-packages:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_mapping/local/lib/python3.10/dist-packages:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('SNAP', '/snap/code/240'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('ELECTRON_NO_ATTACH_CONSOLE', '1'), ('CMAKE_PREFIX_PATH', '/home/bengokaysaglam/bumperbot_ws/install/bumperbot_utils:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_planning:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_navigation:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_cpp_examples:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_msgs:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_motion:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_bringup:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_mapping:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_localization:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_firmware:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_description:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_controller:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble'), ('VSCODE_PID', '3505'), ('COPILOT_OTEL_EXPORTER_TYPE', 'file')]), 'shell': False}
+[0.098945] (-) TimerEvent: {}
+[0.141568] (pavlov_description) CommandEnded: {'returncode': 0}
+[0.143746] (pavlov_description) JobProgress: {'identifier': 'pavlov_description', 'progress': 'install'}
+[0.159393] (pavlov_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_description'], 'cwd': '/home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_description', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/bengokaysaglam'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CODEX_CI', '1'), ('LANGUAGE', 'tr:en'), ('USER', 'bengokaysaglam'), ('SNAP_COMMON', '/var/snap/code/common'), ('LC_TIME', 'tr_TR.UTF-8'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"tr","osLocale":"tr","resolvedLanguage":"en","defaultMessagesFile":"/snap/code/240/usr/share/code/resources/app/out/nls.messages.json","locale":"tr","availableLanguages":{}}'), ('FONTCONFIG_PATH', '/etc/fonts'), ('GIO_MODULE_DIR', '/home/bengokaysaglam/snap/code/common/.cache/gio-modules'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'wayland'), ('DEBUG', 'release'), ('SNAP_UID', '1000'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/usr/local/lib:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_planning/lib:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_cpp_examples/lib:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_msgs/lib:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_motion/lib:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_firmware/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/ros/humble/lib'), ('HOME', '/home/bengokaysaglam'), ('CHROME_DESKTOP', 'code.desktop'), ('SNAP_LIBRARY_PATH', '/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32'), ('DESKTOP_SESSION', 'ubuntu'), ('SNAP_USER_DATA', '/home/bengokaysaglam/snap/code/240'), ('GTK_PATH', '/snap/code/240/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-e57e47ba-1.12-main.sock'), ('GTK_IM_MODULE_FILE', '/home/bengokaysaglam/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('COPILOT_OTEL_FILE_EXPORTER_PATH', '/dev/null'), ('MANAGERPID', '1811'), ('LC_CTYPE', 'C.UTF-8'), ('SYSTEMD_EXEC_PID', '1970'), ('IM_CONFIG_CHECK_ENV', '1'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('SNAP_REVISION', '240'), ('COLORTERM', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6365'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('VSCODE_L10N_BUNDLE_LOCATION', ''), ('COLCON_PREFIX_PATH', '/home/bengokaysaglam/bumperbot_ws/install'), ('APPLICATION_INSIGHTS_NO_STATSBEAT', 'true'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bengokaysaglam'), ('OTEL_INSTRUMENTATION_GENAI_CAPTURE_MESSAGE_CONTENT', 'true'), ('SNAP_CONTEXT', 'MVLE9pveWVw7KZEOzXhirRKT54SkIJmYJgWz6wKOiHNYgslS7b_T'), ('JOURNAL_STREAM', '8:10217'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('SNAP_VERSION', '0958016b'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('RUST_LOG', 'warn'), ('USERNAME', 'bengokaysaglam'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('SNAP_INSTANCE_NAME', 'code'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/bengokaysaglam/.local/bin:/home/bengokaysaglam/.codex/tmp/arg0/codex-arg027nQzB:/home/bengokaysaglam/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/bengokaysaglam/.vscode/extensions/openai.chatgpt-26.5513.21555-linux-x64/bin/linux-x86_64'), ('SESSION_MANAGER', 'local/Ubuntu1:@/tmp/.ICE-unix/1945,unix/Ubuntu1:/tmp/.ICE-unix/1945'), ('GTK_EXE_PREFIX', '/snap/code/240/usr'), ('INVOCATION_ID', 'ca50cebc4d534196a3434652bf20a011'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('SNAP_DATA', '/var/snap/code/240'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/240/usr/lib/locale'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'tr_TR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XDG_DATA_HOME', '/home/bengokaysaglam/snap/code/240/.local/share'), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.G7A5O3'), ('COPILOT_OTEL_ENABLED', 'true'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SNAP_USER_COMMON', '/home/bengokaysaglam/snap/code/common'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/bengokaysaglam/snap/code/240/.local/share/glib-2.0/schemas'), ('SNAP_ARCH', 'amd64'), ('AMENT_PREFIX_PATH', '/home/bengokaysaglam/bumperbot_ws/install/bumperbot_utils:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_py_examples:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_planning:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_navigation:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_cpp_examples:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_msgs:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_motion:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_bringup:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_mapping:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_localization:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_firmware:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_description:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_controller:/opt/ros/humble'), ('SNAP_COOKIE', 'MVLE9pveWVw7KZEOzXhirRKT54SkIJmYJgWz6wKOiHNYgslS7b_T'), ('SHELL', '/bin/bash'), ('IGN_GAZEBO_SYSTEM_PLUGIN_PATH', ':/opt/ros/humble/lib'), ('LC_NAME', 'tr_TR.UTF-8'), ('GDK_PIXBUF_MODULEDIR', '/snap/code/240/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('FONTCONFIG_FILE', '/etc/fonts/fonts.conf'), ('SNAP_NAME', 'code'), ('CODEX_THREAD_ID', '019e4004-32e8-7f33-b6a3-df650168073f'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('GDK_PIXBUF_MODULE_FILE', '/home/bengokaysaglam/snap/code/common/.cache/gdk-pixbuf-loaders.cache'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('SNAP_LAUNCHER_ARCH_TRIPLET', 'x86_64-linux-gnu'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_description'), ('VSCODE_CLI', '1'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('SNAP_REAL_HOME', '/home/bengokaysaglam'), ('VSCODE_CODE_CACHE_PATH', '/home/bengokaysaglam/.config/Code/CachedData/0958016b2af9f09bb4257e0df4a95e2f90590f9f'), ('XDG_DATA_DIRS', '/home/bengokaysaglam/snap/code/240/.local/share:/home/bengokaysaglam/snap/code/240:/snap/code/240/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('SNAP_EUID', '1000'), ('PYTHONPATH', '/home/bengokaysaglam/bumperbot_ws/install/bumperbot_utils/local/lib/python3.10/dist-packages:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_planning/local/lib/python3.10/dist-packages:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_mapping/local/lib/python3.10/dist-packages:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('SNAP', '/snap/code/240'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('ELECTRON_NO_ATTACH_CONSOLE', '1'), ('CMAKE_PREFIX_PATH', '/home/bengokaysaglam/bumperbot_ws/install/bumperbot_utils:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_planning:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_navigation:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_cpp_examples:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_msgs:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_motion:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_bringup:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_mapping:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_localization:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_firmware:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_description:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_controller:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble'), ('VSCODE_PID', '3505'), ('COPILOT_OTEL_EXPORTER_TYPE', 'file')]), 'shell': False}
+[0.171134] (pavlov_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.172341] (pavlov_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.173178] (pavlov_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/launch/__pycache__/gazebo.launch.cpython-310.pyc\n'}
+[0.173286] (pavlov_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/launch/display.launch.py\n'}
+[0.173361] (pavlov_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/launch/gazebo.launch.py\n'}
+[0.173427] (pavlov_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/models/red_ball/model.config\n'}
+[0.173997] (pavlov_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/models/red_ball/model.sdf\n'}
+[0.174268] (pavlov_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/rviz/rviz_config.rviz\n'}
+[0.174748] (pavlov_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/meshes/base.dae\n'}
+[0.174827] (pavlov_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/meshes/femur_bl.dae\n'}
+[0.174875] (pavlov_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/meshes/femur_br.dae\n'}
+[0.174917] (pavlov_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/meshes/femur_fl.dae\n'}
+[0.175128] (pavlov_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/meshes/femur_fr.dae\n'}
+[0.175236] (pavlov_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/meshes/hip_bl.dae\n'}
+[0.176041] (pavlov_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/meshes/hip_br.dae\n'}
+[0.176542] (pavlov_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/meshes/hip_fl.dae\n'}
+[0.176655] (pavlov_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/meshes/hip_fr.dae\n'}
+[0.176702] (pavlov_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/meshes/lidar.dae\n'}
+[0.177177] (pavlov_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/meshes/tibia_bl.dae\n'}
+[0.177236] (pavlov_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/meshes/tibia_br.dae\n'}
+[0.177348] (pavlov_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/meshes/tibia_fl.dae\n'}
+[0.177408] (pavlov_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/meshes/tibia_fr.dae\n'}
+[0.177453] (pavlov_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/meshes/wheel_left_link.STL\n'}
+[0.177690] (pavlov_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/meshes/wheel_right_link.STL\n'}
+[0.177918] (pavlov_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/urdf/pavlov_mini_ros2_control.xacro\n'}
+[0.177978] (pavlov_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/urdf/pavlov_mini_wheel.urdf.xacro\n'}
+[0.178027] (pavlov_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/worlds/empty_with_sensors.sdf\n'}
+[0.178143] (pavlov_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/ament_index/resource_index/package_run_dependencies/pavlov_description\n'}
+[0.178457] (pavlov_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/ament_index/resource_index/parent_prefix_path/pavlov_description\n'}
+[0.178529] (pavlov_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/environment/ament_prefix_path.sh\n'}
+[0.178632] (pavlov_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/environment/ament_prefix_path.dsv\n'}
+[0.178947] (pavlov_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/environment/path.sh\n'}
+[0.179083] (pavlov_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/environment/path.dsv\n'}
+[0.179324] (pavlov_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/local_setup.bash\n'}
+[0.179395] (pavlov_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/local_setup.sh\n'}
+[0.180088] (pavlov_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/local_setup.zsh\n'}
+[0.180224] (pavlov_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/local_setup.dsv\n'}
+[0.180275] (pavlov_description) StdoutLine: {'line': b'-- Symlinking: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/package.dsv\n'}
+[0.196626] (pavlov_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/ament_index/resource_index/packages/pavlov_description\n'}
+[0.196841] (pavlov_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/cmake/pavlov_descriptionConfig.cmake\n'}
+[0.196966] (pavlov_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/cmake/pavlov_descriptionConfig-version.cmake\n'}
+[0.197033] (pavlov_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/package.xml\n'}
+[0.199142] (-) TimerEvent: {}
+[0.222917] (pavlov_controller) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.223278] (pavlov_description) CommandEnded: {'returncode': 0}
+[0.257329] (pavlov_description) JobEnded: {'identifier': 'pavlov_description', 'rc': 0}
+[0.257874] (pavlov_controller) StdoutLine: {'line': b'-- Found rclpy: 3.3.19 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[0.257999] (pavlov_controller) StdoutLine: {'line': b'-- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.264808] (pavlov_controller) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.268120] (pavlov_controller) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.275769] (pavlov_controller) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.285341] (pavlov_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.298283] (pavlov_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.312253] (-) TimerEvent: {}
+[0.334124] (pavlov_controller) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.335264] (pavlov_controller) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.413208] (-) TimerEvent: {}
+[0.484930] (pavlov_controller) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.513954] (-) TimerEvent: {}
+[0.536110] (pavlov_controller) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.551738] (pavlov_controller) StdoutLine: {'line': b'-- Found tf2: 0.25.18 (/opt/ros/humble/share/tf2/cmake)\n'}
+[0.555718] (pavlov_controller) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.18 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[0.614486] (-) TimerEvent: {}
+[0.650594] (pavlov_controller) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.18 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[0.657695] (pavlov_controller) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[0.658993] (pavlov_controller) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[0.668890] (pavlov_controller) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[0.688693] (pavlov_controller) StdoutLine: {'line': b'-- Found trajectory_msgs: 4.9.0 (/opt/ros/humble/share/trajectory_msgs/cmake)\n'}
+[0.706648] (pavlov_controller) StdoutLine: {'line': b'-- Found gazebo_msgs: 3.9.0 (/opt/ros/humble/share/gazebo_msgs/cmake)\n'}
+[0.714922] (-) TimerEvent: {}
+[0.730366] (pavlov_controller) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.815208] (-) TimerEvent: {}
+[0.923218] (-) TimerEvent: {}
+[0.951667] (pavlov_controller) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.962168] (pavlov_controller) StdoutLine: {'line': b'-- Generating done\n'}
+[0.971102] (pavlov_controller) StdoutLine: {'line': b'-- Build files have been written to: /home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_controller\n'}
+[1.023489] (-) TimerEvent: {}
+[1.124550] (-) TimerEvent: {}
+[1.225001] (-) TimerEvent: {}
+[1.325415] (-) TimerEvent: {}
+[1.425934] (-) TimerEvent: {}
+[1.526563] (-) TimerEvent: {}
+[1.627076] (-) TimerEvent: {}
+[1.727611] (-) TimerEvent: {}
+[1.828359] (-) TimerEvent: {}
+[1.928849] (-) TimerEvent: {}
+[2.034991] (-) TimerEvent: {}
+[2.136134] (-) TimerEvent: {}
+[2.236934] (-) TimerEvent: {}
+[2.341931] (-) TimerEvent: {}
+[2.442811] (-) TimerEvent: {}
+[2.544090] (-) TimerEvent: {}
+[2.645250] (-) TimerEvent: {}
+[2.746324] (-) TimerEvent: {}
+[2.851845] (-) TimerEvent: {}
+[2.953431] (-) TimerEvent: {}
+[3.056422] (-) TimerEvent: {}
+[3.156994] (-) TimerEvent: {}
+[3.260345] (-) TimerEvent: {}
+[3.361063] (-) TimerEvent: {}
+[3.462663] (-) TimerEvent: {}
+[3.563219] (-) TimerEvent: {}
+[3.665020] (-) TimerEvent: {}
+[3.771971] (-) TimerEvent: {}
+[3.873168] (-) TimerEvent: {}
+[3.976294] (-) TimerEvent: {}
+[4.078617] (-) TimerEvent: {}
+[4.179814] (-) TimerEvent: {}
+[4.280396] (-) TimerEvent: {}
+[4.381239] (-) TimerEvent: {}
+[4.481960] (-) TimerEvent: {}
+[4.584014] (-) TimerEvent: {}
+[4.685502] (-) TimerEvent: {}
+[4.785930] (-) TimerEvent: {}
+[4.886815] (-) TimerEvent: {}
+[4.988701] (-) TimerEvent: {}
+[5.089345] (-) TimerEvent: {}
+[5.189962] (-) TimerEvent: {}
+[5.290861] (-) TimerEvent: {}
+[5.392974] (-) TimerEvent: {}
+[5.495397] (-) TimerEvent: {}
+[5.599103] (-) TimerEvent: {}
+[5.702154] (-) TimerEvent: {}
+[5.803549] (-) TimerEvent: {}
+[5.904371] (-) TimerEvent: {}
+[6.005941] (-) TimerEvent: {}
+[6.107094] (-) TimerEvent: {}
+[6.208193] (-) TimerEvent: {}
+[6.308980] (-) TimerEvent: {}
+[6.409908] (-) TimerEvent: {}
+[6.517244] (-) TimerEvent: {}
+[6.619369] (-) TimerEvent: {}
+[6.721891] (-) TimerEvent: {}
+[6.822583] (-) TimerEvent: {}
+[6.923187] (-) TimerEvent: {}
+[7.025694] (-) TimerEvent: {}
+[7.128678] (-) TimerEvent: {}
+[7.229497] (-) TimerEvent: {}
+[7.330599] (-) TimerEvent: {}
+[7.431811] (-) TimerEvent: {}
+[7.532886] (-) TimerEvent: {}
+[7.646007] (-) TimerEvent: {}
+[7.751259] (-) TimerEvent: {}
+[7.852141] (-) TimerEvent: {}
+[7.952831] (-) TimerEvent: {}
+[8.053360] (-) TimerEvent: {}
+[8.155891] (-) TimerEvent: {}
+[8.259595] (-) TimerEvent: {}
+[8.365917] (-) TimerEvent: {}
+[8.468112] (-) TimerEvent: {}
+[8.569839] (-) TimerEvent: {}
+[8.670509] (-) TimerEvent: {}
+[8.771046] (-) TimerEvent: {}
+[8.872072] (-) TimerEvent: {}
+[8.974029] (-) TimerEvent: {}
+[9.078043] (-) TimerEvent: {}
+[9.179298] (-) TimerEvent: {}
+[9.280350] (-) TimerEvent: {}
+[9.381251] (-) TimerEvent: {}
+[9.482304] (-) TimerEvent: {}
+[9.585094] (-) TimerEvent: {}
+[9.688118] (-) TimerEvent: {}
+[9.789931] (-) TimerEvent: {}
+[9.894172] (-) TimerEvent: {}
+[9.995343] (-) TimerEvent: {}
+[10.095901] (-) TimerEvent: {}
+[10.196439] (-) TimerEvent: {}
+[10.296971] (-) TimerEvent: {}
+[10.397350] (-) TimerEvent: {}
+[10.499014] (-) TimerEvent: {}
+[10.603677] (-) TimerEvent: {}
+[10.705081] (-) TimerEvent: {}
+[10.806281] (-) TimerEvent: {}
+[10.907257] (-) TimerEvent: {}
+[11.015687] (-) TimerEvent: {}
+[11.117907] (-) TimerEvent: {}
+[11.222831] (-) TimerEvent: {}
+[11.323317] (-) TimerEvent: {}
+[11.425954] (-) TimerEvent: {}
+[11.526620] (-) TimerEvent: {}
+[11.626884] (-) TimerEvent: {}
+[11.730382] (-) TimerEvent: {}
+[11.832081] (-) TimerEvent: {}
+[11.938008] (-) TimerEvent: {}
+[12.038909] (-) TimerEvent: {}
+[12.141126] (-) TimerEvent: {}
+[12.241412] (-) TimerEvent: {}
+[12.343288] (-) TimerEvent: {}
+[12.444734] (-) TimerEvent: {}
+[12.545592] (-) TimerEvent: {}
+[12.647712] (-) TimerEvent: {}
+[12.749034] (-) TimerEvent: {}
+[12.849891] (-) TimerEvent: {}
+[12.950354] (-) TimerEvent: {}
+[13.058076] (-) TimerEvent: {}
+[13.159756] (-) TimerEvent: {}
+[13.269892] (-) TimerEvent: {}
+[13.370830] (-) TimerEvent: {}
+[13.471146] (-) TimerEvent: {}
+[13.572455] (-) TimerEvent: {}
+[13.677962] (-) TimerEvent: {}
+[13.783816] (-) TimerEvent: {}
+[13.885511] (-) TimerEvent: {}
+[13.996496] (-) TimerEvent: {}
+[14.100885] (-) TimerEvent: {}
+[14.201906] (-) TimerEvent: {}
+[14.303224] (-) TimerEvent: {}
+[14.405373] (-) TimerEvent: {}
+[14.506200] (-) TimerEvent: {}
+[14.607388] (-) TimerEvent: {}
+[14.708145] (-) TimerEvent: {}
+[14.809122] (-) TimerEvent: {}
+[14.909818] (-) TimerEvent: {}
+[15.015362] (-) TimerEvent: {}
+[15.115933] (-) TimerEvent: {}
+[15.216628] (-) TimerEvent: {}
+[15.316875] (-) TimerEvent: {}
+[15.417978] (-) TimerEvent: {}
+[15.522175] (-) TimerEvent: {}
+[15.623153] (-) TimerEvent: {}
+[15.725147] (-) TimerEvent: {}
+[15.825808] (-) TimerEvent: {}
+[15.926587] (-) TimerEvent: {}
+[16.028128] (-) TimerEvent: {}
+[16.129104] (-) TimerEvent: {}
+[16.229625] (-) TimerEvent: {}
+[16.330226] (-) TimerEvent: {}
+[16.431772] (-) TimerEvent: {}
+[16.532244] (-) TimerEvent: {}
+[16.638401] (-) TimerEvent: {}
+[16.739173] (-) TimerEvent: {}
+[16.840876] (-) TimerEvent: {}
+[16.943327] (-) TimerEvent: {}
+[17.044221] (-) TimerEvent: {}
+[17.144533] (-) TimerEvent: {}
+[17.246877] (-) TimerEvent: {}
+[17.356584] (-) TimerEvent: {}
+[17.460992] (-) TimerEvent: {}
+[17.561765] (-) TimerEvent: {}
+[17.662588] (-) TimerEvent: {}
+[17.766648] (-) TimerEvent: {}
+[17.867253] (-) TimerEvent: {}
+[17.968654] (-) TimerEvent: {}
+[18.068906] (-) TimerEvent: {}
+[18.169314] (-) TimerEvent: {}
+[18.269972] (-) TimerEvent: {}
+[18.370492] (-) TimerEvent: {}
+[18.471053] (-) TimerEvent: {}
+[18.571652] (-) TimerEvent: {}
+[18.672961] (-) TimerEvent: {}
+[18.774103] (-) TimerEvent: {}
+[18.874938] (-) TimerEvent: {}
+[18.975287] (-) TimerEvent: {}
+[19.075870] (-) TimerEvent: {}
+[19.176204] (-) TimerEvent: {}
+[19.276616] (-) TimerEvent: {}
+[19.377090] (-) TimerEvent: {}
+[19.480359] (-) TimerEvent: {}
+[19.583247] (-) TimerEvent: {}
+[19.683923] (-) TimerEvent: {}
+[19.785540] (-) TimerEvent: {}
+[19.886022] (-) TimerEvent: {}
+[19.986882] (-) TimerEvent: {}
+[20.090398] (-) TimerEvent: {}
+[20.194634] (-) TimerEvent: {}
+[20.295359] (-) TimerEvent: {}
+[20.395879] (-) TimerEvent: {}
+[20.496811] (-) TimerEvent: {}
+[20.597552] (-) TimerEvent: {}
+[20.701262] (-) TimerEvent: {}
+[20.801901] (-) TimerEvent: {}
+[20.904869] (-) TimerEvent: {}
+[21.005807] (-) TimerEvent: {}
+[21.107414] (-) TimerEvent: {}
+[21.210210] (-) TimerEvent: {}
+[21.316039] (-) TimerEvent: {}
+[21.419194] (-) TimerEvent: {}
+[21.519861] (-) TimerEvent: {}
+[21.622910] (-) TimerEvent: {}
+[21.723862] (-) TimerEvent: {}
+[21.824877] (-) TimerEvent: {}
+[21.925967] (-) TimerEvent: {}
+[22.026626] (-) TimerEvent: {}
+[22.130862] (-) TimerEvent: {}
+[22.231273] (-) TimerEvent: {}
+[22.334215] (-) TimerEvent: {}
+[22.435346] (-) TimerEvent: {}
+[22.536035] (-) TimerEvent: {}
+[22.638110] (-) TimerEvent: {}
+[22.738981] (-) TimerEvent: {}
+[22.844070] (-) TimerEvent: {}
+[22.947601] (-) TimerEvent: {}
+[23.051361] (-) TimerEvent: {}
+[23.154554] (-) TimerEvent: {}
+[23.255605] (-) TimerEvent: {}
+[23.356108] (-) TimerEvent: {}
+[23.459753] (-) TimerEvent: {}
+[23.560132] (-) TimerEvent: {}
+[23.661000] (-) TimerEvent: {}
+[23.761950] (-) TimerEvent: {}
+[23.862996] (-) TimerEvent: {}
+[23.964217] (-) TimerEvent: {}
+[24.070037] (-) TimerEvent: {}
+[24.171839] (-) TimerEvent: {}
+[24.272294] (-) TimerEvent: {}
+[24.373677] (-) TimerEvent: {}
+[24.475566] (-) TimerEvent: {}
+[24.576570] (-) TimerEvent: {}
+[24.678305] (-) TimerEvent: {}
+[24.779943] (-) TimerEvent: {}
+[24.882974] (-) TimerEvent: {}
+[24.984089] (-) TimerEvent: {}
+[25.085252] (-) TimerEvent: {}
+[25.185866] (-) TimerEvent: {}
+[25.287977] (-) TimerEvent: {}
+[25.388466] (-) TimerEvent: {}
+[25.488976] (-) TimerEvent: {}
+[25.591117] (-) TimerEvent: {}
+[25.692201] (-) TimerEvent: {}
+[25.792684] (-) TimerEvent: {}
+[25.895051] (-) TimerEvent: {}
+[26.002011] (-) TimerEvent: {}
+[26.103373] (-) TimerEvent: {}
+[26.207976] (-) TimerEvent: {}
+[26.309929] (-) TimerEvent: {}
+[26.410844] (-) TimerEvent: {}
+[26.511279] (-) TimerEvent: {}
+[26.611877] (-) TimerEvent: {}
+[26.713313] (-) TimerEvent: {}
+[26.814161] (-) TimerEvent: {}
+[26.914892] (-) TimerEvent: {}
+[27.015404] (-) TimerEvent: {}
+[27.116144] (-) TimerEvent: {}
+[27.216641] (-) TimerEvent: {}
+[27.317965] (-) TimerEvent: {}
+[27.418433] (-) TimerEvent: {}
+[27.518909] (-) TimerEvent: {}
+[27.619420] (-) TimerEvent: {}
+[27.720067] (-) TimerEvent: {}
+[27.821019] (-) TimerEvent: {}
+[27.927085] (-) TimerEvent: {}
+[28.027794] (-) TimerEvent: {}
+[28.129611] (-) TimerEvent: {}
+[28.232020] (-) TimerEvent: {}
+[28.332520] (-) TimerEvent: {}
+[28.433094] (-) TimerEvent: {}
+[28.533693] (-) TimerEvent: {}
+[28.635131] (-) TimerEvent: {}
+[28.735521] (-) TimerEvent: {}
+[28.836838] (-) TimerEvent: {}
+[28.937588] (-) TimerEvent: {}
+[29.041118] (-) TimerEvent: {}
+[29.142548] (-) TimerEvent: {}
+[29.249516] (-) TimerEvent: {}
+[29.350062] (-) TimerEvent: {}
+[29.452217] (-) TimerEvent: {}
+[29.552909] (-) TimerEvent: {}
+[29.654832] (-) TimerEvent: {}
+[29.756085] (-) TimerEvent: {}
+[29.856874] (-) TimerEvent: {}
+[29.957414] (-) TimerEvent: {}
+[30.060675] (-) TimerEvent: {}
+[30.163831] (-) TimerEvent: {}
+[30.265601] (-) TimerEvent: {}
+[30.289143] (pavlov_controller) CommandEnded: {'returncode': 0}
+[30.295274] (pavlov_controller) JobProgress: {'identifier': 'pavlov_controller', 'progress': 'install'}
+[30.295390] (pavlov_controller) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_controller'], 'cwd': '/home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_controller', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/bengokaysaglam'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CODEX_CI', '1'), ('LANGUAGE', 'tr:en'), ('USER', 'bengokaysaglam'), ('SNAP_COMMON', '/var/snap/code/common'), ('LC_TIME', 'tr_TR.UTF-8'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"tr","osLocale":"tr","resolvedLanguage":"en","defaultMessagesFile":"/snap/code/240/usr/share/code/resources/app/out/nls.messages.json","locale":"tr","availableLanguages":{}}'), ('FONTCONFIG_PATH', '/etc/fonts'), ('GIO_MODULE_DIR', '/home/bengokaysaglam/snap/code/common/.cache/gio-modules'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'wayland'), ('DEBUG', 'release'), ('SNAP_UID', '1000'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/usr/local/lib:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_planning/lib:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_cpp_examples/lib:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_msgs/lib:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_motion/lib:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_firmware/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/ros/humble/lib'), ('HOME', '/home/bengokaysaglam'), ('CHROME_DESKTOP', 'code.desktop'), ('SNAP_LIBRARY_PATH', '/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32'), ('DESKTOP_SESSION', 'ubuntu'), ('SNAP_USER_DATA', '/home/bengokaysaglam/snap/code/240'), ('GTK_PATH', '/snap/code/240/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-e57e47ba-1.12-main.sock'), ('GTK_IM_MODULE_FILE', '/home/bengokaysaglam/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('COPILOT_OTEL_FILE_EXPORTER_PATH', '/dev/null'), ('MANAGERPID', '1811'), ('LC_CTYPE', 'C.UTF-8'), ('SYSTEMD_EXEC_PID', '1970'), ('IM_CONFIG_CHECK_ENV', '1'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('SNAP_REVISION', '240'), ('COLORTERM', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6365'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('VSCODE_L10N_BUNDLE_LOCATION', ''), ('COLCON_PREFIX_PATH', '/home/bengokaysaglam/bumperbot_ws/install'), ('APPLICATION_INSIGHTS_NO_STATSBEAT', 'true'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bengokaysaglam'), ('OTEL_INSTRUMENTATION_GENAI_CAPTURE_MESSAGE_CONTENT', 'true'), ('SNAP_CONTEXT', 'MVLE9pveWVw7KZEOzXhirRKT54SkIJmYJgWz6wKOiHNYgslS7b_T'), ('JOURNAL_STREAM', '8:10217'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('SNAP_VERSION', '0958016b'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('RUST_LOG', 'warn'), ('USERNAME', 'bengokaysaglam'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('SNAP_INSTANCE_NAME', 'code'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/bengokaysaglam/.local/bin:/home/bengokaysaglam/.codex/tmp/arg0/codex-arg027nQzB:/home/bengokaysaglam/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/bengokaysaglam/.vscode/extensions/openai.chatgpt-26.5513.21555-linux-x64/bin/linux-x86_64'), ('SESSION_MANAGER', 'local/Ubuntu1:@/tmp/.ICE-unix/1945,unix/Ubuntu1:/tmp/.ICE-unix/1945'), ('GTK_EXE_PREFIX', '/snap/code/240/usr'), ('INVOCATION_ID', 'ca50cebc4d534196a3434652bf20a011'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('SNAP_DATA', '/var/snap/code/240'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/240/usr/lib/locale'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'tr_TR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XDG_DATA_HOME', '/home/bengokaysaglam/snap/code/240/.local/share'), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.G7A5O3'), ('COPILOT_OTEL_ENABLED', 'true'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SNAP_USER_COMMON', '/home/bengokaysaglam/snap/code/common'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/bengokaysaglam/snap/code/240/.local/share/glib-2.0/schemas'), ('SNAP_ARCH', 'amd64'), ('AMENT_PREFIX_PATH', '/home/bengokaysaglam/bumperbot_ws/install/bumperbot_utils:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_py_examples:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_planning:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_navigation:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_cpp_examples:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_msgs:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_motion:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_bringup:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_mapping:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_localization:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_firmware:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_description:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_controller:/opt/ros/humble'), ('SNAP_COOKIE', 'MVLE9pveWVw7KZEOzXhirRKT54SkIJmYJgWz6wKOiHNYgslS7b_T'), ('SHELL', '/bin/bash'), ('IGN_GAZEBO_SYSTEM_PLUGIN_PATH', ':/opt/ros/humble/lib'), ('LC_NAME', 'tr_TR.UTF-8'), ('GDK_PIXBUF_MODULEDIR', '/snap/code/240/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('FONTCONFIG_FILE', '/etc/fonts/fonts.conf'), ('SNAP_NAME', 'code'), ('CODEX_THREAD_ID', '019e4004-32e8-7f33-b6a3-df650168073f'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('GDK_PIXBUF_MODULE_FILE', '/home/bengokaysaglam/snap/code/common/.cache/gdk-pixbuf-loaders.cache'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('SNAP_LAUNCHER_ARCH_TRIPLET', 'x86_64-linux-gnu'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_controller'), ('VSCODE_CLI', '1'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('SNAP_REAL_HOME', '/home/bengokaysaglam'), ('VSCODE_CODE_CACHE_PATH', '/home/bengokaysaglam/.config/Code/CachedData/0958016b2af9f09bb4257e0df4a95e2f90590f9f'), ('XDG_DATA_DIRS', '/home/bengokaysaglam/snap/code/240/.local/share:/home/bengokaysaglam/snap/code/240:/snap/code/240/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('SNAP_EUID', '1000'), ('PYTHONPATH', '/home/bengokaysaglam/bumperbot_ws/install/bumperbot_utils/local/lib/python3.10/dist-packages:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_planning/local/lib/python3.10/dist-packages:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_mapping/local/lib/python3.10/dist-packages:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('SNAP', '/snap/code/240'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('ELECTRON_NO_ATTACH_CONSOLE', '1'), ('CMAKE_PREFIX_PATH', '/home/bengokaysaglam/bumperbot_ws/install/bumperbot_utils:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_planning:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_navigation:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_cpp_examples:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_msgs:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_motion:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_bringup:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_mapping:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_localization:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_firmware:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_description:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_controller:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble'), ('VSCODE_PID', '3505'), ('COPILOT_OTEL_EXPORTER_TYPE', 'file')]), 'shell': False}
+[30.309474] (pavlov_controller) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[30.310708] (pavlov_controller) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[30.312110] (pavlov_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_controller/share/pavlov_controller/launch/__pycache__/keyboard_controller.launch.cpython-310.pyc\n'}
+[30.312756] (pavlov_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_controller/share/pavlov_controller/launch/keyboard_controller.launch.py\n'}
+[30.313399] (pavlov_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_controller/share/pavlov_controller/config/controller_params.yaml\n'}
+[30.313599] (pavlov_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_controller/share/pavlov_controller/config/ros2_controller.yaml\n'}
+[30.313827] (pavlov_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_controller/share/pavlov_controller/config/ros2_controllers.yaml\n'}
+[30.313894] (pavlov_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_controller/lib/pavlov_controller/keyboard_controller.py\n'}
+[30.313940] (pavlov_controller) StdoutLine: {'line': b'-- Symlinking: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_controller/lib/pavlov_controller/stance_initializer.py\n'}
+[30.335190] (pavlov_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_controller/share/ament_index/resource_index/package_run_dependencies/pavlov_controller\n'}
+[30.335626] (pavlov_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_controller/share/ament_index/resource_index/parent_prefix_path/pavlov_controller\n'}
+[30.336047] (pavlov_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_controller/share/pavlov_controller/environment/ament_prefix_path.sh\n'}
+[30.336623] (pavlov_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_controller/share/pavlov_controller/environment/ament_prefix_path.dsv\n'}
+[30.337173] (pavlov_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_controller/share/pavlov_controller/environment/path.sh\n'}
+[30.337548] (pavlov_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_controller/share/pavlov_controller/environment/path.dsv\n'}
+[30.337630] (pavlov_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_controller/share/pavlov_controller/local_setup.bash\n'}
+[30.337681] (pavlov_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_controller/share/pavlov_controller/local_setup.sh\n'}
+[30.337726] (pavlov_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_controller/share/pavlov_controller/local_setup.zsh\n'}
+[30.338413] (pavlov_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_controller/share/pavlov_controller/local_setup.dsv\n'}
+[30.338492] (pavlov_controller) StdoutLine: {'line': b'-- Symlinking: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_controller/share/pavlov_controller/package.dsv\n'}
+[30.361877] (pavlov_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_controller/share/ament_index/resource_index/packages/pavlov_controller\n'}
+[30.362065] (pavlov_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_controller/share/pavlov_controller/cmake/pavlov_controllerConfig.cmake\n'}
+[30.362146] (pavlov_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_controller/share/pavlov_controller/cmake/pavlov_controllerConfig-version.cmake\n'}
+[30.362200] (pavlov_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_controller/share/pavlov_controller/package.xml\n'}
+[30.366130] (-) TimerEvent: {}
+[30.467717] (-) TimerEvent: {}
+[30.568919] (-) TimerEvent: {}
+[30.670057] (-) TimerEvent: {}
+[30.772028] (-) TimerEvent: {}
+[30.872684] (-) TimerEvent: {}
+[30.973125] (-) TimerEvent: {}
+[31.074177] (-) TimerEvent: {}
+[31.175438] (-) TimerEvent: {}
+[31.282105] (-) TimerEvent: {}
+[31.384170] (-) TimerEvent: {}
+[31.485007] (-) TimerEvent: {}
+[31.587012] (-) TimerEvent: {}
+[31.689528] (-) TimerEvent: {}
+[31.793248] (-) TimerEvent: {}
+[31.894503] (-) TimerEvent: {}
+[31.996157] (-) TimerEvent: {}
+[32.101942] (-) TimerEvent: {}
+[32.203807] (-) TimerEvent: {}
+[32.304591] (-) TimerEvent: {}
+[32.405514] (-) TimerEvent: {}
+[32.510118] (-) TimerEvent: {}
+[32.610819] (-) TimerEvent: {}
+[32.712899] (-) TimerEvent: {}
+[32.815389] (-) TimerEvent: {}
+[32.916517] (-) TimerEvent: {}
+[33.019061] (-) TimerEvent: {}
+[33.120972] (-) TimerEvent: {}
+[33.221495] (-) TimerEvent: {}
+[33.326494] (-) TimerEvent: {}
+[33.427504] (-) TimerEvent: {}
+[33.527926] (-) TimerEvent: {}
+[33.628860] (-) TimerEvent: {}
+[33.729314] (-) TimerEvent: {}
+[33.829742] (-) TimerEvent: {}
+[33.930610] (-) TimerEvent: {}
+[34.032120] (-) TimerEvent: {}
+[34.132617] (-) TimerEvent: {}
+[34.235821] (-) TimerEvent: {}
+[34.337694] (-) TimerEvent: {}
+[34.442913] (-) TimerEvent: {}
+[34.543362] (-) TimerEvent: {}
+[34.643804] (-) TimerEvent: {}
+[34.744050] (-) TimerEvent: {}
+[34.845112] (-) TimerEvent: {}
+[34.945666] (-) TimerEvent: {}
+[35.046555] (-) TimerEvent: {}
+[35.147441] (-) TimerEvent: {}
+[35.248053] (-) TimerEvent: {}
+[35.348646] (-) TimerEvent: {}
+[35.449484] (-) TimerEvent: {}
+[35.549957] (-) TimerEvent: {}
+[35.650406] (-) TimerEvent: {}
+[35.751626] (-) TimerEvent: {}
+[35.853867] (-) TimerEvent: {}
+[35.956966] (-) TimerEvent: {}
+[36.057528] (-) TimerEvent: {}
+[36.158951] (-) TimerEvent: {}
+[36.260829] (-) TimerEvent: {}
+[36.361172] (-) TimerEvent: {}
+[36.461630] (-) TimerEvent: {}
+[36.562564] (-) TimerEvent: {}
+[36.663199] (-) TimerEvent: {}
+[36.767275] (-) TimerEvent: {}
+[36.868855] (-) TimerEvent: {}
+[36.969800] (-) TimerEvent: {}
+[37.070968] (-) TimerEvent: {}
+[37.171646] (-) TimerEvent: {}
+[37.273547] (-) TimerEvent: {}
+[37.374122] (-) TimerEvent: {}
+[37.475049] (-) TimerEvent: {}
+[37.577075] (-) TimerEvent: {}
+[37.677497] (-) TimerEvent: {}
+[37.777896] (-) TimerEvent: {}
+[37.878215] (-) TimerEvent: {}
+[37.978908] (-) TimerEvent: {}
+[38.079211] (-) TimerEvent: {}
+[38.179943] (-) TimerEvent: {}
+[38.280457] (-) TimerEvent: {}
+[38.381686] (-) TimerEvent: {}
+[38.481941] (-) TimerEvent: {}
+[38.584021] (-) TimerEvent: {}
+[38.687971] (-) TimerEvent: {}
+[38.790081] (-) TimerEvent: {}
+[38.891136] (-) TimerEvent: {}
+[38.991885] (-) TimerEvent: {}
+[39.092932] (-) TimerEvent: {}
+[39.193369] (-) TimerEvent: {}
+[39.294087] (-) TimerEvent: {}
+[39.394517] (-) TimerEvent: {}
+[39.494894] (-) TimerEvent: {}
+[39.595736] (-) TimerEvent: {}
+[39.696824] (-) TimerEvent: {}
+[39.797481] (-) TimerEvent: {}
+[39.897948] (-) TimerEvent: {}
+[40.002814] (-) TimerEvent: {}
+[40.106072] (-) TimerEvent: {}
+[40.206977] (-) TimerEvent: {}
+[40.312296] (-) TimerEvent: {}
+[40.412757] (-) TimerEvent: {}
+[40.513874] (-) TimerEvent: {}
+[40.614321] (-) TimerEvent: {}
+[40.715219] (-) TimerEvent: {}
+[40.815720] (-) TimerEvent: {}
+[40.916576] (-) TimerEvent: {}
+[41.019063] (-) TimerEvent: {}
+[41.121580] (-) TimerEvent: {}
+[41.229202] (-) TimerEvent: {}
+[41.331168] (-) TimerEvent: {}
+[41.432847] (-) TimerEvent: {}
+[41.533900] (-) TimerEvent: {}
+[41.634314] (-) TimerEvent: {}
+[41.735242] (-) TimerEvent: {}
+[41.835839] (-) TimerEvent: {}
+[41.939935] (-) TimerEvent: {}
+[42.040781] (-) TimerEvent: {}
+[42.142955] (-) TimerEvent: {}
+[42.243439] (-) TimerEvent: {}
+[42.343869] (-) TimerEvent: {}
+[42.445489] (-) TimerEvent: {}
+[42.550175] (-) TimerEvent: {}
+[42.650834] (-) TimerEvent: {}
+[42.751546] (-) TimerEvent: {}
+[42.853472] (-) TimerEvent: {}
+[42.954126] (-) TimerEvent: {}
+[43.055186] (-) TimerEvent: {}
+[43.157301] (-) TimerEvent: {}
+[43.263942] (-) TimerEvent: {}
+[43.365179] (-) TimerEvent: {}
+[43.467512] (-) TimerEvent: {}
+[43.570951] (-) TimerEvent: {}
+[43.672147] (-) TimerEvent: {}
+[43.773334] (-) TimerEvent: {}
+[43.874712] (-) TimerEvent: {}
+[43.979388] (-) TimerEvent: {}
+[44.080177] (-) TimerEvent: {}
+[44.181858] (-) TimerEvent: {}
+[44.282296] (-) TimerEvent: {}
+[44.384147] (-) TimerEvent: {}
+[44.484761] (-) TimerEvent: {}
+[44.588994] (-) TimerEvent: {}
+[44.691018] (-) TimerEvent: {}
+[44.791596] (-) TimerEvent: {}
+[44.892067] (-) TimerEvent: {}
+[44.992830] (-) TimerEvent: {}
+[45.093308] (-) TimerEvent: {}
+[45.193854] (-) TimerEvent: {}
+[45.294190] (-) TimerEvent: {}
+[45.394998] (-) TimerEvent: {}
+[45.499911] (-) TimerEvent: {}
+[45.604128] (-) TimerEvent: {}
+[45.704665] (-) TimerEvent: {}
+[45.805185] (-) TimerEvent: {}
+[45.906238] (-) TimerEvent: {}
+[46.008011] (-) TimerEvent: {}
+[46.108295] (-) TimerEvent: {}
+[46.208938] (-) TimerEvent: {}
+[46.309688] (-) TimerEvent: {}
+[46.411832] (-) TimerEvent: {}
+[46.512241] (-) TimerEvent: {}
+[46.614268] (-) TimerEvent: {}
+[46.715549] (-) TimerEvent: {}
+[46.816990] (-) TimerEvent: {}
+[46.917477] (-) TimerEvent: {}
+[47.018486] (-) TimerEvent: {}
+[47.119320] (-) TimerEvent: {}
+[47.219639] (-) TimerEvent: {}
+[47.322133] (-) TimerEvent: {}
+[47.447151] (-) TimerEvent: {}
+[47.550862] (-) TimerEvent: {}
+[47.651254] (-) TimerEvent: {}
+[47.751658] (-) TimerEvent: {}
+[47.852641] (-) TimerEvent: {}
+[47.955065] (-) TimerEvent: {}
+[48.055642] (-) TimerEvent: {}
+[48.160181] (-) TimerEvent: {}
+[48.260562] (-) TimerEvent: {}
+[48.362388] (-) TimerEvent: {}
+[48.462958] (-) TimerEvent: {}
+[48.566057] (-) TimerEvent: {}
+[48.666413] (-) TimerEvent: {}
+[48.766836] (-) TimerEvent: {}
+[48.867922] (-) TimerEvent: {}
+[48.968479] (-) TimerEvent: {}
+[49.070015] (-) TimerEvent: {}
+[49.170660] (-) TimerEvent: {}
+[49.271841] (-) TimerEvent: {}
+[49.372358] (-) TimerEvent: {}
+[49.475053] (-) TimerEvent: {}
+[49.575510] (-) TimerEvent: {}
+[49.676528] (-) TimerEvent: {}
+[49.777211] (-) TimerEvent: {}
+[49.877981] (-) TimerEvent: {}
+[49.979324] (-) TimerEvent: {}
+[50.083059] (-) TimerEvent: {}
+[50.185284] (-) TimerEvent: {}
+[50.287054] (-) TimerEvent: {}
+[50.392345] (-) TimerEvent: {}
+[50.492920] (-) TimerEvent: {}
+[50.593349] (-) TimerEvent: {}
+[50.695004] (-) TimerEvent: {}
+[50.797272] (-) TimerEvent: {}
+[50.898015] (-) TimerEvent: {}
+[51.001225] (-) TimerEvent: {}
+[51.103338] (-) TimerEvent: {}
+[51.205273] (-) TimerEvent: {}
+[51.306531] (-) TimerEvent: {}
+[51.406925] (-) TimerEvent: {}
+[51.508858] (-) TimerEvent: {}
+[51.610157] (-) TimerEvent: {}
+[51.711911] (-) TimerEvent: {}
+[51.812978] (-) TimerEvent: {}
+[51.913270] (-) TimerEvent: {}
+[52.014636] (-) TimerEvent: {}
+[52.118251] (-) TimerEvent: {}
+[52.219327] (-) TimerEvent: {}
+[52.321810] (-) TimerEvent: {}
+[52.422318] (-) TimerEvent: {}
+[52.523169] (-) TimerEvent: {}
+[52.624189] (-) TimerEvent: {}
+[52.724669] (-) TimerEvent: {}
+[52.825676] (-) TimerEvent: {}
+[52.926943] (-) TimerEvent: {}
+[53.027468] (-) TimerEvent: {}
+[53.128133] (-) TimerEvent: {}
+[53.228809] (-) TimerEvent: {}
+[53.329399] (-) TimerEvent: {}
+[53.430997] (-) TimerEvent: {}
+[53.532166] (-) TimerEvent: {}
+[53.633260] (-) TimerEvent: {}
+[53.735245] (-) TimerEvent: {}
+[53.836567] (-) TimerEvent: {}
+[53.940849] (-) TimerEvent: {}
+[54.041844] (-) TimerEvent: {}
+[54.143307] (-) TimerEvent: {}
+[54.244296] (-) TimerEvent: {}
+[54.346160] (-) TimerEvent: {}
+[54.446586] (-) TimerEvent: {}
+[54.547412] (-) TimerEvent: {}
+[54.648264] (-) TimerEvent: {}
+[54.749842] (-) TimerEvent: {}
+[54.850537] (-) TimerEvent: {}
+[54.951052] (-) TimerEvent: {}
+[55.051781] (-) TimerEvent: {}
+[55.152326] (-) TimerEvent: {}
+[55.252772] (-) TimerEvent: {}
+[55.353235] (-) TimerEvent: {}
+[55.453895] (-) TimerEvent: {}
+[55.554290] (-) TimerEvent: {}
+[55.656271] (-) TimerEvent: {}
+[55.758873] (-) TimerEvent: {}
+[55.861105] (-) TimerEvent: {}
+[55.961487] (-) TimerEvent: {}
+[56.062185] (-) TimerEvent: {}
+[56.165271] (-) TimerEvent: {}
+[56.268062] (-) TimerEvent: {}
+[56.370238] (-) TimerEvent: {}
+[56.470831] (-) TimerEvent: {}
+[56.571778] (-) TimerEvent: {}
+[56.672254] (-) TimerEvent: {}
+[56.772735] (-) TimerEvent: {}
+[56.876987] (-) TimerEvent: {}
+[56.977446] (-) TimerEvent: {}
+[57.077874] (-) TimerEvent: {}
+[57.178861] (-) TimerEvent: {}
+[57.280612] (-) TimerEvent: {}
+[57.381951] (-) TimerEvent: {}
+[57.482999] (-) TimerEvent: {}
+[57.583422] (-) TimerEvent: {}
+[57.696253] (-) TimerEvent: {}
+[57.797462] (-) TimerEvent: {}
+[57.899285] (-) TimerEvent: {}
+[58.004856] (-) TimerEvent: {}
+[58.105352] (-) TimerEvent: {}
+[58.206158] (-) TimerEvent: {}
+[58.307004] (-) TimerEvent: {}
+[58.407679] (-) TimerEvent: {}
+[58.508520] (-) TimerEvent: {}
+[58.610308] (-) TimerEvent: {}
+[58.712717] (-) TimerEvent: {}
+[58.817671] (-) TimerEvent: {}
+[58.918837] (-) TimerEvent: {}
+[59.021196] (-) TimerEvent: {}
+[59.121579] (-) TimerEvent: {}
+[59.222063] (-) TimerEvent: {}
+[59.322445] (-) TimerEvent: {}
+[59.423039] (-) TimerEvent: {}
+[59.523800] (-) TimerEvent: {}
+[59.627293] (-) TimerEvent: {}
+[59.729173] (-) TimerEvent: {}
+[59.830028] (-) TimerEvent: {}
+[59.931880] (-) TimerEvent: {}
+[60.032393] (-) TimerEvent: {}
+[60.132696] (-) TimerEvent: {}
+[60.233479] (-) TimerEvent: {}
+[60.318505] (pavlov_controller) CommandEnded: {'returncode': 0}
+[60.335349] (-) TimerEvent: {}
+[60.353400] (pavlov_controller) JobEnded: {'identifier': 'pavlov_controller', 'rc': 0}
+[60.354144] (-) EventReactorShutdown: {}

@@ -1,0 +1,47 @@
+[0.023s] Invoking command in '/home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_description -- -j6 -l6
+[0.094s] Invoked command in '/home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_description -- -j6 -l6
+[0.119s] Invoking command in '/home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_description
+[0.131s] -- Install configuration: ""
+[0.132s] -- Execute custom install script
+[0.132s] -- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/launch/__pycache__/display.launch.cpython-310.pyc
+[0.133s] -- Symlinking: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/launch/__pycache__/gazebo.launch.cpython-310.pyc
+[0.148s] -- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/launch/display.launch.py
+[0.150s] -- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/launch/gazebo.launch.py
+[0.150s] -- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/models/red_ball/model.config
+[0.150s] -- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/models/red_ball/model.sdf
+[0.151s] -- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/rviz/rviz_config.rviz
+[0.151s] -- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/meshes/base.dae
+[0.151s] -- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/meshes/femur_bl.dae
+[0.152s] -- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/meshes/femur_br.dae
+[0.152s] -- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/meshes/femur_fl.dae
+[0.155s] -- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/meshes/femur_fr.dae
+[0.156s] -- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/meshes/hip_bl.dae
+[0.157s] -- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/meshes/hip_br.dae
+[0.157s] -- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/meshes/hip_fl.dae
+[0.157s] -- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/meshes/hip_fr.dae
+[0.157s] -- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/meshes/lidar.dae
+[0.157s] -- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/meshes/tibia_bl.dae
+[0.158s] -- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/meshes/tibia_br.dae
+[0.158s] -- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/meshes/tibia_fl.dae
+[0.158s] -- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/meshes/tibia_fr.dae
+[0.158s] -- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/meshes/wheel_left_link.STL
+[0.158s] -- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/meshes/wheel_right_link.STL
+[0.158s] -- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/urdf/pavlov_mini_ros2_control.xacro
+[0.158s] -- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/urdf/pavlov_mini_wheel.urdf.xacro
+[0.158s] -- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/worlds/empty_with_sensors.sdf
+[0.158s] -- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/ament_index/resource_index/package_run_dependencies/pavlov_description
+[0.158s] -- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/ament_index/resource_index/parent_prefix_path/pavlov_description
+[0.158s] -- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/environment/ament_prefix_path.sh
+[0.158s] -- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/environment/ament_prefix_path.dsv
+[0.158s] -- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/environment/path.sh
+[0.159s] -- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/environment/path.dsv
+[0.159s] -- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/local_setup.bash
+[0.159s] -- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/local_setup.sh
+[0.160s] -- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/local_setup.zsh
+[0.160s] -- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/local_setup.dsv
+[0.161s] -- Symlinking: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/package.dsv
+[0.185s] -- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/ament_index/resource_index/packages/pavlov_description
+[0.185s] -- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/cmake/pavlov_descriptionConfig.cmake
+[0.188s] -- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/cmake/pavlov_descriptionConfig-version.cmake
+[0.189s] -- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/package.xml
+[0.216s] Invoked command in '/home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_description

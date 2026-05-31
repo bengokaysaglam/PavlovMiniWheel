@@ -1,0 +1,15 @@
+-- run_test.py: invoking following command in '/home/bengokaysaglam/pavlov_mini_wheel/src/pavlov_description':
+ - /opt/ros/humble/bin/ament_flake8 --xunit-file /home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_description/test_results/pavlov_description/flake8.xunit.xml
+
+
+2 files checked
+No problems found
+
+Checked files:
+
+* ./launch/display.launch.py
+* ./launch/gazebo.launch.py
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_description/test_results/pavlov_description/flake8.xunit.xml'

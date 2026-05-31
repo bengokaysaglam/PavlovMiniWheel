@@ -1,0 +1,26 @@
+[0.030s] Invoking command in '/home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_controller -- -j6 -l6
+[0.098s] Invoked command in '/home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_controller -- -j6 -l6
+[0.114s] Invoking command in '/home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_controller
+[0.126s] -- Install configuration: ""
+[0.126s] -- Execute custom install script
+[0.127s] -- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_controller/share/pavlov_controller/launch/simple_controller.launch.py
+[0.127s] -- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_controller/share/pavlov_controller/config/controller_params.yaml
+[0.127s] -- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_controller/share/pavlov_controller/config/ros2_controllers.yaml
+[0.127s] -- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_controller/lib/pavlov_controller/simple_controller.py
+[0.128s] -- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_controller/lib/pavlov_controller/ball_localizer.py
+[0.128s] -- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_controller/share/ament_index/resource_index/package_run_dependencies/pavlov_controller
+[0.128s] -- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_controller/share/ament_index/resource_index/parent_prefix_path/pavlov_controller
+[0.128s] -- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_controller/share/pavlov_controller/environment/ament_prefix_path.sh
+[0.129s] -- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_controller/share/pavlov_controller/environment/ament_prefix_path.dsv
+[0.129s] -- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_controller/share/pavlov_controller/environment/path.sh
+[0.129s] -- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_controller/share/pavlov_controller/environment/path.dsv
+[0.130s] -- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_controller/share/pavlov_controller/local_setup.bash
+[0.130s] -- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_controller/share/pavlov_controller/local_setup.sh
+[0.130s] -- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_controller/share/pavlov_controller/local_setup.zsh
+[0.131s] -- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_controller/share/pavlov_controller/local_setup.dsv
+[0.131s] -- Symlinking: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_controller/share/pavlov_controller/package.dsv
+[0.145s] -- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_controller/share/ament_index/resource_index/packages/pavlov_controller
+[0.145s] -- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_controller/share/pavlov_controller/cmake/pavlov_controllerConfig.cmake
+[0.146s] -- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_controller/share/pavlov_controller/cmake/pavlov_controllerConfig-version.cmake
+[0.146s] -- Up-to-date symlink: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_controller/share/pavlov_controller/package.xml
+[0.162s] Invoked command in '/home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_controller

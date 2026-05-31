@@ -1,0 +1,53 @@
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_description
+-- Install configuration: ""
+-- Installing: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/launch
+-- Installing: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/launch/gazebo.launch.py
+-- Installing: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/models
+-- Installing: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/models/red_ball
+-- Installing: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/models/red_ball/model.config
+-- Installing: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/models/red_ball/model.sdf
+-- Installing: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/meshes
+-- Installing: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/meshes/femur_fl.dae
+-- Installing: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/meshes/wheel_right_link.STL
+-- Installing: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/meshes/lidar.dae
+-- Installing: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/meshes/base.dae
+-- Installing: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/meshes/tibia_bl.dae
+-- Installing: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/meshes/femur_br.dae
+-- Installing: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/meshes/femur_bl.dae
+-- Installing: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/meshes/wheel_left_link.STL
+-- Installing: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/meshes/tibia_fr.dae
+-- Installing: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/meshes/hip_br.dae
+-- Installing: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/meshes/hip_bl.dae
+-- Installing: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/meshes/hip_fl.dae
+-- Installing: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/meshes/tibia_fl.dae
+-- Installing: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/meshes/hip_fr.dae
+-- Installing: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/meshes/tibia_br.dae
+-- Installing: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/meshes/femur_fr.dae
+-- Installing: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/urdf
+-- Installing: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/urdf/pavlov_mini_wheel.urdf.xacro
+-- Installing: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/urdf/pavlov_mini_ros2_control.xacro
+-- Installing: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/worlds
+-- Installing: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/worlds/empty_with_sensors.sdf
+-- Installing: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/ament_index/resource_index/package_run_dependencies/pavlov_description
+-- Up-to-date: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/ament_index/resource_index/parent_prefix_path/pavlov_description
+-- Up-to-date: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/environment/ament_prefix_path.sh
+-- Installing: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/environment/path.sh
+-- Installing: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/environment/path.dsv
+-- Up-to-date: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/local_setup.bash
+-- Up-to-date: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/local_setup.sh
+-- Up-to-date: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/local_setup.zsh
+-- Installing: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/local_setup.dsv
+-- Installing: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/package.dsv
+-- Up-to-date: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/ament_index/resource_index/packages/pavlov_description
+-- Up-to-date: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/cmake/pavlov_descriptionConfig.cmake
+-- Up-to-date: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/cmake/pavlov_descriptionConfig-version.cmake
+-- Installing: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description/share/pavlov_description/package.xml

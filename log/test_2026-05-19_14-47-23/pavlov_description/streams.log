@@ -1,0 +1,84 @@
+[29.990s] Invoking command in '/home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_description': AMENT_PREFIX_PATH=/home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description:${CMAKE_PREFIX_PATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[30.000s] UpdateCTestConfiguration  from :/home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_description/CTestConfiguration.ini
+[30.002s] Parse Config file:/home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_description/CTestConfiguration.ini
+[30.002s]    Site: Ubuntu1
+[30.002s]    Build name: (empty)
+[30.002s]  Add coverage exclude regular expressions.
+[30.002s] Create new tag: 20260519-1147 - Experimental
+[30.002s] UpdateCTestConfiguration  from :/home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_description/CTestConfiguration.ini
+[30.002s] Parse Config file:/home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_description/CTestConfiguration.ini
+[30.003s] Test project /home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_description
+[30.003s] Constructing a list of tests
+[30.003s] Done constructing a list of tests
+[30.003s] Updating test list for fixtures
+[30.003s] Added 0 tests to meet fixture requirements
+[30.003s] Checking test dependency graph...
+[30.003s] Checking test dependency graph end
+[30.003s] test 1
+[30.003s]     Start 1: flake8
+[30.003s] 
+[30.003s] 1: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_description/test_results/pavlov_description/flake8.xunit.xml" "--package-name" "pavlov_description" "--output-file" "/home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_description/ament_flake8/flake8.txt" "--command" "/opt/ros/humble/bin/ament_flake8" "--xunit-file" "/home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_description/test_results/pavlov_description/flake8.xunit.xml"
+[30.003s] 1: Test timeout computed to be: 60
+[30.071s] 1: -- run_test.py: invoking following command in '/home/bengokaysaglam/pavlov_mini_wheel/src/pavlov_description':
+[30.071s] 1:  - /opt/ros/humble/bin/ament_flake8 --xunit-file /home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_description/test_results/pavlov_description/flake8.xunit.xml
+[30.297s] 1: 
+[30.297s] 1: 2 files checked
+[30.297s] 1: No problems found
+[30.297s] 1: 
+[30.297s] 1: Checked files:
+[30.297s] 1: 
+[30.297s] 1: * ./launch/display.launch.py
+[30.297s] 1: * ./launch/gazebo.launch.py
+[30.322s] 1: -- run_test.py: return code 0
+[30.324s] 1: -- run_test.py: verify result file '/home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_description/test_results/pavlov_description/flake8.xunit.xml'
+[30.349s] 1/4 Test #1: flake8 ...........................   Passed    0.34 sec
+[30.349s] test 2
+[30.349s]     Start 2: lint_cmake
+[30.349s] 
+[30.349s] 2: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_description/test_results/pavlov_description/lint_cmake.xunit.xml" "--package-name" "pavlov_description" "--output-file" "/home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_description/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/humble/bin/ament_lint_cmake" "--xunit-file" "/home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_description/test_results/pavlov_description/lint_cmake.xunit.xml"
+[30.349s] 2: Test timeout computed to be: 60
+[30.418s] 2: -- run_test.py: invoking following command in '/home/bengokaysaglam/pavlov_mini_wheel/src/pavlov_description':
+[30.418s] 2:  - /opt/ros/humble/bin/ament_lint_cmake --xunit-file /home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_description/test_results/pavlov_description/lint_cmake.xunit.xml
+[30.493s] 2: 
+[30.493s] 2: No problems found
+[30.507s] 2: -- run_test.py: return code 0
+[30.508s] 2: -- run_test.py: verify result file '/home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_description/test_results/pavlov_description/lint_cmake.xunit.xml'
+[30.518s] 2/4 Test #2: lint_cmake .......................   Passed    0.17 sec
+[30.519s] test 3
+[30.519s]     Start 3: pep257
+[30.519s] 
+[30.519s] 3: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_description/test_results/pavlov_description/pep257.xunit.xml" "--package-name" "pavlov_description" "--output-file" "/home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_description/ament_pep257/pep257.txt" "--command" "/opt/ros/humble/bin/ament_pep257" "--xunit-file" "/home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_description/test_results/pavlov_description/pep257.xunit.xml"
+[30.519s] 3: Test timeout computed to be: 60
+[30.594s] 3: -- run_test.py: invoking following command in '/home/bengokaysaglam/pavlov_mini_wheel/src/pavlov_description':
+[30.594s] 3:  - /opt/ros/humble/bin/ament_pep257 --xunit-file /home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_description/test_results/pavlov_description/pep257.xunit.xml
+[30.732s] 3: checking ./launch/display.launch.py
+[30.733s] 3: checking ./launch/gazebo.launch.py
+[30.733s] 3: No problems found
+[30.750s] 3: -- run_test.py: return code 0
+[30.750s] 3: -- run_test.py: verify result file '/home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_description/test_results/pavlov_description/pep257.xunit.xml'
+[30.759s] 3/4 Test #3: pep257 ...........................   Passed    0.24 sec
+[30.759s] test 4
+[30.759s]     Start 4: xmllint
+[30.759s] 
+[30.759s] 4: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_description/test_results/pavlov_description/xmllint.xunit.xml" "--package-name" "pavlov_description" "--output-file" "/home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_description/ament_xmllint/xmllint.txt" "--command" "/opt/ros/humble/bin/ament_xmllint" "--xunit-file" "/home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_description/test_results/pavlov_description/xmllint.xunit.xml"
+[30.759s] 4: Test timeout computed to be: 60
+[30.828s] 4: -- run_test.py: invoking following command in '/home/bengokaysaglam/pavlov_mini_wheel/src/pavlov_description':
+[30.828s] 4:  - /opt/ros/humble/bin/ament_xmllint --xunit-file /home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_description/test_results/pavlov_description/xmllint.xunit.xml
+[30.915s] 4: File 'package.xml' is valid
+[30.915s] 4: 
+[30.915s] 4: No problems found
+[30.931s] 4: -- run_test.py: return code 0
+[30.931s] 4: -- run_test.py: verify result file '/home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_description/test_results/pavlov_description/xmllint.xunit.xml'
+[30.936s] 4/4 Test #4: xmllint ..........................   Passed    0.18 sec
+[30.938s] 
+[30.938s] 100% tests passed, 0 tests failed out of 4
+[30.938s] 
+[30.938s] Label Time Summary:
+[30.938s] flake8        =   0.34 sec*proc (1 test)
+[30.938s] lint_cmake    =   0.17 sec*proc (1 test)
+[30.938s] linter        =   0.93 sec*proc (4 tests)
+[30.938s] pep257        =   0.24 sec*proc (1 test)
+[30.938s] xmllint       =   0.18 sec*proc (1 test)
+[30.938s] 
+[30.938s] Total Test time (real) =   0.94 sec
+[60.020s] Invoked command in '/home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_description' returned '0': AMENT_PREFIX_PATH=/home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_description:${CMAKE_PREFIX_PATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

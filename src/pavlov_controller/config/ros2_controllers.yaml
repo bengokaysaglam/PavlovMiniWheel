@@ -1,0 +1,61 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 100
+
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+    joint_trajectory_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+
+    simple_velocity_controller:
+      type: velocity_controllers/JointGroupVelocityController
+
+
+joint_state_broadcaster:
+  ros__parameters:
+    use_local_topics: false
+
+
+joint_trajectory_controller:
+  ros__parameters:
+    joints:
+      - hip1_fl
+      - hip1_fr
+      - hip1_bl
+      - hip1_br
+      - hip2_fl
+      - hip2_fr
+      - hip2_bl
+      - hip2_br
+      - knee_fl
+      - knee_fr
+      - knee_bl
+      - knee_br
+
+    command_interfaces:
+      - position
+
+    state_interfaces:
+      - position
+      - velocity
+
+    action_monitor_rate: 20.0
+    allow_partial_joints_goal: false
+    open_loop_control: false
+
+
+simple_velocity_controller:
+  ros__parameters:
+    joints:
+      - wheel_fl_joint
+      - wheel_fr_joint
+      - wheel_bl_joint
+      - wheel_br_joint
+
+    command_interfaces:
+      - velocity
+
+    state_interfaces:
+      - position
+      - velocity

@@ -1,0 +1,54 @@
+[0.033s] Invoking command in '/home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake /home/bengokaysaglam/pavlov_mini_wheel/src/pavlov_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_controller
+[0.072s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.287s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.319s] -- Found rclpy: 3.3.19 (/opt/ros/humble/share/rclpy/cmake)
+[0.321s] -- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+[0.421s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.431s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.462s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.506s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.571s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.706s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.716s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.944s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.124s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.170s] -- Found tf2: 0.25.18 (/opt/ros/humble/share/tf2/cmake)
+[1.190s] -- Found tf2_ros: 0.25.18 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.434s] -- Found tf2_geometry_msgs: 0.25.18 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.464s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.464s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.482s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[1.543s] -- Found trajectory_msgs: 4.9.0 (/opt/ros/humble/share/trajectory_msgs/cmake)
+[1.588s] -- Found gazebo_msgs: 3.9.0 (/opt/ros/humble/share/gazebo_msgs/cmake)
+[1.648s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.841s] -- Configuring done
+[1.869s] -- Generating done
+[1.875s] -- Build files have been written to: /home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_controller
+[1.888s] Invoked command in '/home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake /home/bengokaysaglam/pavlov_mini_wheel/src/pavlov_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_controller
+[1.891s] Invoking command in '/home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_controller -- -j6 -l6
+[1.968s] Invoked command in '/home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_controller -- -j6 -l6
+[1.970s] Invoking command in '/home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_controller
+[1.984s] -- Install configuration: ""
+[1.985s] -- Execute custom install script
+[1.985s] -- Symlinking: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_controller/share/pavlov_controller/launch/__pycache__/keyboard_controller.launch.cpython-310.pyc
+[2.000s] -- Symlinking: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_controller/share/pavlov_controller/launch/keyboard_controller.launch.py
+[2.015s] -- Symlinking: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_controller/share/pavlov_controller/config/controller_params.yaml
+[2.030s] -- Symlinking: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_controller/share/pavlov_controller/config/ros2_controller.yaml
+[2.048s] -- Symlinking: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_controller/share/pavlov_controller/config/ros2_controllers.yaml
+[2.064s] -- Symlinking: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_controller/lib/pavlov_controller/keyboard_controller.py
+[2.087s] -- Symlinking: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_controller/share/ament_index/resource_index/package_run_dependencies/pavlov_controller
+[2.104s] -- Symlinking: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_controller/share/ament_index/resource_index/parent_prefix_path/pavlov_controller
+[2.123s] -- Symlinking: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_controller/share/pavlov_controller/environment/ament_prefix_path.sh
+[2.159s] -- Symlinking: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_controller/share/pavlov_controller/environment/ament_prefix_path.dsv
+[2.179s] -- Symlinking: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_controller/share/pavlov_controller/environment/path.sh
+[2.198s] -- Symlinking: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_controller/share/pavlov_controller/environment/path.dsv
+[2.213s] -- Symlinking: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_controller/share/pavlov_controller/local_setup.bash
+[2.228s] -- Symlinking: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_controller/share/pavlov_controller/local_setup.sh
+[2.260s] -- Symlinking: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_controller/share/pavlov_controller/local_setup.zsh
+[2.274s] -- Symlinking: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_controller/share/pavlov_controller/local_setup.dsv
+[2.288s] -- Symlinking: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_controller/share/pavlov_controller/package.dsv
+[2.305s] -- Symlinking: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_controller/share/ament_index/resource_index/packages/pavlov_controller
+[2.320s] -- Symlinking: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_controller/share/pavlov_controller/cmake/pavlov_controllerConfig.cmake
+[2.336s] -- Symlinking: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_controller/share/pavlov_controller/cmake/pavlov_controllerConfig-version.cmake
+[2.352s] -- Symlinking: /home/bengokaysaglam/pavlov_mini_wheel/install/pavlov_controller/share/pavlov_controller/package.xml
+[2.371s] Invoked command in '/home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bengokaysaglam/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_controller
