@@ -1,1 +1,0 @@
-/home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_controller/ament_cmake_environment_hooks/local_setup.bash

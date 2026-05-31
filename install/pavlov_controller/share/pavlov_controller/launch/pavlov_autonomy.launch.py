@@ -1,1 +1,0 @@
-/home/bengokaysaglam/pavlov_mini_wheel/src/pavlov_controller/launch/pavlov_autonomy.launch.py

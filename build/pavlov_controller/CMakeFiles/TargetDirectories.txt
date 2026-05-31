@@ -1,9 +1,0 @@
-/home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_controller/CMakeFiles/uninstall.dir
-/home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_controller/CMakeFiles/pavlov_controller_uninstall.dir
-/home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_controller/CMakeFiles/test.dir
-/home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_controller/CMakeFiles/edit_cache.dir
-/home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_controller/CMakeFiles/rebuild_cache.dir
-/home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_controller/CMakeFiles/list_install_components.dir
-/home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_controller/CMakeFiles/install.dir
-/home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_controller/CMakeFiles/install/local.dir
-/home/bengokaysaglam/pavlov_mini_wheel/build/pavlov_controller/CMakeFiles/install/strip.dir
