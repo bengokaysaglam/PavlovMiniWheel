@@ -11,7 +11,6 @@ from rclpy.qos import qos_profile_sensor_data
 from sensor_msgs.msg import Image, CameraInfo
 from std_msgs.msg import Bool
 
-# This node localizes the ball in the world frame using the camera data and the robot's pose.
 def rot_y(pitch_rad: float) -> np.ndarray:
     c = math.cos(pitch_rad)
     s = math.sin(pitch_rad)
@@ -45,8 +44,16 @@ class BallLocalizer(Node):
         self.declare_parameter("ema_alpha", 0.4)
 
         self.declare_parameter("output_frame", "base_link")
-        self.declare_parameter("camera_offset_xyz", [0.04312, 0.0, 0.08341])
-        self.declare_parameter("camera_pitch_rad", -0.15)
+        self.declare_parameter("camera_frame_id", "camera_link")
+        self.declare_parameter("camera_info_fallback", True)
+        self.declare_parameter("camera_info_fallback_fx", 530.47)
+        self.declare_parameter("camera_info_fallback_fy", 529.08)
+        self.declare_parameter("camera_info_fallback_cx", 320.0)
+        self.declare_parameter("camera_info_fallback_cy", 240.0)
+        self.declare_parameter("camera_info_fallback_image_width", 640)
+        self.declare_parameter("camera_info_fallback_image_height", 480)
+        self.declare_parameter("camera_offset_xyz", [0.0, 0.0, 0.0])
+        self.declare_parameter("camera_pitch_rad", 0.0)
 
         self.declare_parameter("publish_debug_image", True)
         self.declare_parameter("debug_image_topic", "/ball/debug_image")
@@ -55,6 +62,14 @@ class BallLocalizer(Node):
         self.declare_parameter("ball_visible_topic", "/ball/visible")
 
         self._bridge = CvBridge()
+
+        fallback_value = self.get_parameter("camera_info_fallback").value
+        if isinstance(fallback_value, bool):
+            self._use_fallback_intrinsics = fallback_value
+        else:
+            self._use_fallback_intrinsics = str(fallback_value).lower() in ("1", "true", "yes")
+
+        self._camera_frame_id = str(self.get_parameter("camera_frame_id").value or "camera_link")
 
         self._fx = None
         self._fy = None
@@ -110,9 +125,40 @@ class BallLocalizer(Node):
             self.get_logger().warn("CameraInfo intrinsics look invalid (fx/fy <= 1).")
             return
         
-        self._fx, self._fy, self._cx, self._cy = fx, fy, cx, cy
+        if self._fx is None:
+            self.get_logger().info(
+                f"Camera intrinsics loaded from CameraInfo: fx={fx:.2f}, fy={fy:.2f}, cx={cx:.2f}, cy={cy:.2f}"
+            )
+        
+        self._set_intrinsics(fx, fy, cx, cy)
 
-    # topic: ball_visible_topic
+    def _set_intrinsics(self, fx: float, fy: float, cx: float, cy: float) -> None:
+        self._fx = fx
+        self._fy = fy
+        self._cx = cx
+        self._cy = cy
+
+    def _load_fallback_intrinsics(self) -> bool:
+        if not self._use_fallback_intrinsics:
+            return False
+
+        try:
+            fx = float(self.get_parameter("camera_info_fallback_fx").value)
+            fy = float(self.get_parameter("camera_info_fallback_fy").value)
+            cx = float(self.get_parameter("camera_info_fallback_cx").value)
+            cy = float(self.get_parameter("camera_info_fallback_cy").value)
+        except Exception as exc:
+            self.get_logger().error(
+                f"Failed to load fallback camera intrinsics: {exc}"
+            )
+            return False
+
+        self._set_intrinsics(fx, fy, cx, cy)
+        self.get_logger().info(
+            f"Using Pi Camera V2 fallback intrinsics: fx={fx:.2f}, fy={fy:.2f}, cx={cx:.2f}, cy={cy:.2f}"
+        )
+        return True
+
     def _publish_visible(self, stamp, visible: bool) -> None:
         msg = Bool()
         msg.data = visible
@@ -120,9 +166,14 @@ class BallLocalizer(Node):
 
     def _image_cb(self, msg: Image) -> None:
         if self._fx is None:
-            self.get_logger().warn("Waiting for /camera/camera_info...", throttle_duration_sec=2.0)
-            return
-        
+            if self._load_fallback_intrinsics():
+                self.get_logger().warn(
+                    "CameraInfo not received. Using Pi Camera V2 fallback intrinsics."
+                )
+            else:
+                self.get_logger().warn("Waiting for /camera/camera_info...", throttle_duration_sec=2.0)
+                return
+
         publish_debug: bool = self.get_parameter("publish_debug_image").value or False
         ball_radius_m: float = self.get_parameter("ball_radius_m").value or 0.03
         min_radius_px: float = self.get_parameter("min_radius_px").value or 3.0
@@ -140,8 +191,8 @@ class BallLocalizer(Node):
         kernel_size = max(1, kernel_size | 1)
 
         output_frame: str = str(self.get_parameter("output_frame").value or "base_link")
-        camera_offset_xyz = self.get_parameter("camera_offset_xyz").value or [0.04312, 0.0, 0.08341]
-        camera_pitch_rad: float = float(self.get_parameter("camera_pitch_rad").value or -0.15)
+        camera_offset_xyz = self.get_parameter("camera_offset_xyz").value or [0.0, 0.0, 0.0]
+        camera_pitch_rad: float = float(self.get_parameter("camera_pitch_rad").value or 0.0)
 
         try:
             bgr = self._bridge.imgmsg_to_cv2(msg, desired_encoding="bgr8")
@@ -214,7 +265,7 @@ class BallLocalizer(Node):
             frame_id = output_frame
         else:
             p_out = p_cam
-            frame_id = msg.header.frame_id or "camera"
+            frame_id = msg.header.frame_id or self._camera_frame_id or "camera"
 
         if self._last_point_base is not None and 0.0 < ema_alpha < 1.0:
             p_out = (1.0 - ema_alpha) * self._last_point_base + ema_alpha * p_out

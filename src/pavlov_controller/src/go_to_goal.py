@@ -25,7 +25,6 @@ class GoToGoal(Node):
 
         self.declare_parameter("goal_topic", "/goal_pose")
         self.declare_parameter("odom_topic", "/odom")
-        # bu topic biraz şüpheli olmayadabilir.
         self.declare_parameter("cmd_vel_topic", "/cmd_vel")
 
         self.declare_parameter("control_rate_hz", 20.0)
