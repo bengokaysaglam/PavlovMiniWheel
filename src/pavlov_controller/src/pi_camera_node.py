@@ -6,12 +6,10 @@ from cv_bridge import CvBridge
 from rclpy.node import Node
 from sensor_msgs.msg import CameraInfo, Image
 
-
 def parse_device(device_value):
     if isinstance(device_value, str) and device_value.isdigit():
         return int(device_value)
     return device_value
-
 
 def camera_backend_constant(backend_name: str):
     if not backend_name:
@@ -20,6 +18,48 @@ def camera_backend_constant(backend_name: str):
     attr_name = f"CAP_{backend_name.upper()}"
     return getattr(cv2, attr_name, cv2.CAP_ANY)
 
+
+def resolve_capture_backend(backend_name: str) -> int:
+    """Resolve the preferred OpenCV backend and fall back to a usable one."""
+    normalized = str(backend_name or "").strip().lower()
+
+    candidate_names = [normalized] if normalized not in ("", "auto", "default", "any") else ["libcamera", "v4l2", "gstreamer", "any"]
+
+    seen = set()
+    for name in candidate_names:
+        if name in ("", "auto", "default"):
+            value = cv2.CAP_ANY
+        elif name == "any":
+            value = cv2.CAP_ANY
+        else:
+            value = getattr(cv2, f"CAP_{name.upper()}", None)
+
+        if isinstance(value, int) and value not in seen:
+            seen.add(value)
+            return int(value)
+
+    return int(cv2.CAP_ANY)
+
+
+def candidate_devices(device_value):
+    """Return a useful list of camera device candidates for Pi Camera V2 and V4L2."""
+    candidates = []
+
+    if isinstance(device_value, (int, float)):
+        candidates.append(int(device_value))
+    elif isinstance(device_value, str):
+        raw = device_value.strip()
+        if raw.isdigit():
+            candidates.append(int(raw))
+        if raw:
+            candidates.append(raw)
+
+    fallback_devices = [0, "/dev/video0", "/dev/video1", "/dev/video2"]
+    for fallback in fallback_devices:
+        if fallback not in candidates:
+            candidates.append(fallback)
+
+    return candidates
 
 class PiCameraNode(Node):
     def __init__(self):
@@ -91,19 +131,60 @@ class PiCameraNode(Node):
             except Exception:
                 pass
 
-        backend = camera_backend_constant(str(self.capture_backend))
-        self.cap = cv2.VideoCapture(self.device, backend)
-        self.cap.set(cv2.CAP_PROP_FRAME_WIDTH, self.image_width)
-        self.cap.set(cv2.CAP_PROP_FRAME_HEIGHT, self.image_height)
-        self.cap.set(cv2.CAP_PROP_FPS, self.frame_rate)
+        backend_candidates = []
+        for backend_name in (str(self.capture_backend), "auto", "v4l2", "libcamera", "any"):
+            backend = resolve_capture_backend(backend_name)
+            if backend not in backend_candidates:
+                backend_candidates.append(backend)
 
-        if not self.cap.isOpened():
-            self.get_logger().error(
-                f"Cannot open camera device {self.device} with backend {self.capture_backend}."
+        device_candidates = candidate_devices(self.device)
+
+        last_error = None
+
+        for backend in backend_candidates:
+            for device in device_candidates:
+                try:
+                    cap = cv2.VideoCapture(device, backend)
+                except Exception as exc:
+                    last_error = exc
+                    continue
+
+                if not cap.isOpened():
+                    try:
+                        cap.release()
+                    except Exception:
+                        pass
+                    continue
+
+                cap.set(cv2.CAP_PROP_FRAME_WIDTH, self.image_width)
+                cap.set(cv2.CAP_PROP_FRAME_HEIGHT, self.image_height)
+                cap.set(cv2.CAP_PROP_FPS, self.frame_rate)
+
+                if not cap.isOpened():
+                    try:
+                        cap.release()
+                    except Exception:
+                        pass
+                    continue
+
+                self.cap = cap
+                backend_name = next((name for name in (str(self.capture_backend), "auto", "v4l2", "libcamera", "any") if resolve_capture_backend(name) == backend), str(self.capture_backend))
+                self.get_logger().info(
+                    f"Camera opened: device={device} backend={backend_name} (OpenCV constant={backend})"
+                )
+                return
+
+            last_error = RuntimeError(
+                f"Failed to open camera device candidate list {device_candidates} with backend {backend}."
             )
-            self.cap = None
-        else:
-            self.get_logger().info(f"Camera opened: {self.device} using backend {self.capture_backend}")
+
+        self.cap = None
+        self.get_logger().error(
+            "Cannot open camera device. Tried device=%s and backends=%s. Last error: %s",
+            device_candidates,
+            backend_candidates,
+            last_error,
+        )
 
     def _timer_callback(self) -> None:
         if self.cap is None:
@@ -149,14 +230,12 @@ class PiCameraNode(Node):
                 pass
         super().destroy_node()
 
-
 def main(args=None):
     rclpy.init(args=args)
     node = PiCameraNode()
     rclpy.spin(node)
     node.destroy_node()
     rclpy.shutdown()
-
 
 if __name__ == "__main__":
     main()

@@ -8,7 +8,7 @@ from launch_ros.actions import Node
 
 def generate_launch_description():
     return LaunchDescription([
-        DeclareLaunchArgument("device", default_value="/dev/video0", description="Video device for Pi Camera")
+        DeclareLaunchArgument("device", default_value="0", description="Video device for Pi Camera V2 (use 0 or /dev/video0)")
         , DeclareLaunchArgument("image_topic", default_value="/camera/image_raw", description="Camera image topic")
         , DeclareLaunchArgument("camera_info_topic", default_value="/camera/camera_info", description="Camera info topic")
         , DeclareLaunchArgument("camera_frame_id", default_value="camera_link", description="Camera frame id")
@@ -21,7 +21,7 @@ def generate_launch_description():
         , DeclareLaunchArgument("cy", default_value="240.0", description="Camera intrinsic cy")
         , DeclareLaunchArgument("distortion_model", default_value="plumb_bob", description="Camera distortion model")
         , DeclareLaunchArgument("distortion_coefficients", default_value="[0.0,0.0,0.0,0.0,0.0]", description="Camera distortion coefficients")
-        , DeclareLaunchArgument("capture_backend", default_value="v4l2", description="OpenCV capture backend")
+        , DeclareLaunchArgument("capture_backend", default_value="auto", description="OpenCV capture backend (auto/libcamera/v4l2)")
 
         , Node(
             package="pavlov_controller",
