@@ -180,10 +180,9 @@ class PiCameraNode(Node):
 
         self.cap = None
         self.get_logger().error(
-            "Cannot open camera device. Tried device=%s and backends=%s. Last error: %s",
-            device_candidates,
-            backend_candidates,
-            last_error,
+            "Cannot open camera device. Tried device="
+            f"{device_candidates} and backends={backend_candidates}. "
+            f"Last error: {last_error}"
         )
 
     def _timer_callback(self) -> None:
