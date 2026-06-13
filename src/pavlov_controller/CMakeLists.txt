@@ -39,7 +39,6 @@ install(PROGRAMS
   src/ball_to_goal.py
   src/go_to_goal.py
   src/arduino_serial_bridge.py
-  src/pi_camera_node.py
   DESTINATION lib/${PROJECT_NAME}
 )
 
