@@ -23,7 +23,7 @@ class ArduinoSerialBridge(Node):
         self.declare_parameter("wheel_radius", 0.0325)
         self.declare_parameter("wheel_separation", 0.1071)
         self.declare_parameter("command_prefix", "V")
-        self.declare_parameter("max_wheel_speed", 40.0)
+        self.declare_parameter("max_wheel_speed", 30.0)
         self.declare_parameter("reconnect_interval", 1.0)
 
         self.serial_port = self.get_parameter("serial_port").value

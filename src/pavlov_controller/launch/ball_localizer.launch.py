@@ -8,26 +8,26 @@ from launch_ros.actions import Node
 
 def generate_launch_description():
 
-    camera_node = Node(
-        package="camera_ros",
-        executable="camera_node",
-        name="camera",
-        output="screen",
-        parameters=[
-            {
-                "width": 640,
-                "height": 480,
-                "role": "video",
-                "format": "BGR888",
-                "frame_id": "camera_optical_frame",
-                "use_sim_time": LaunchConfiguration("use_sim_time"),
-            }
-        ],
-        remappings=[
-            ("~/image_raw", "/camera/image_raw"),
-            ("~/camera_info", "/camera/camera_info"),
-        ],
-    )
+    #camera_node = Node(
+    #    package="camera_ros",
+    #    executable="camera_node",
+    #    name="camera",
+    #    output="screen",
+    #    parameters=[
+    #        {
+    #            "width": 640,
+    #            "height": 480,
+    #            "role": "video",
+    #            "format": "BGR888",
+    #            "frame_id": "camera_optical_frame",
+    #            "use_sim_time": LaunchConfiguration("use_sim_time"),
+    #        }
+    #    ],
+    #    remappings=[
+    #        ("~/image_raw", "/camera/image_raw"),
+    #        ("~/camera_info", "/camera/camera_info"),
+    #    ],
+    #)
 
     ball_localizer_node = Node(
         package="pavlov_controller",
@@ -121,7 +121,7 @@ def generate_launch_description():
                 default_value="true"
             ),
 
-            camera_node,
+            #camera_node,
             ball_localizer_node,
         ]
     )

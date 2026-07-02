@@ -8,6 +8,7 @@ from launch_ros.actions import Node
 def generate_launch_description():
     use_sim_time = LaunchConfiguration("use_sim_time")
     use_external_odom = LaunchConfiguration("use_external_odom")
+    goal_topic = LaunchConfiguration("goal_topic")
 
     max_linear_speed = LaunchConfiguration("max_linear_speed")
     max_angular_speed = LaunchConfiguration("max_angular_speed")
@@ -20,7 +21,7 @@ def generate_launch_description():
         parameters=[
             {"use_sim_time": use_sim_time},
             {"use_external_odom": use_external_odom},
-            {"goal_topic": "/ball/pose"},
+            {"goal_topic": goal_topic},
             {"cmd_vel_topic": "/cmd_vel"},
             {"max_linear_speed": max_linear_speed},
             {"max_angular_speed": max_angular_speed},
@@ -38,6 +39,11 @@ def generate_launch_description():
                 "use_external_odom",
                 default_value="false",
                 description="true: use /odom, false: internal integration",
+            ),
+            DeclareLaunchArgument(
+                "goal_topic",
+                default_value="/goal_pose",
+                description="Topic for PoseStamped goal messages",
             ),
             DeclareLaunchArgument(
                 "max_linear_speed",
