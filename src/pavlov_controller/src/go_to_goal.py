@@ -3,7 +3,6 @@
 import math
 import rclpy
 from rclpy.node import Node
-from rclpy.clock import Clock, ClockType
 from geometry_msgs.msg import PoseStamped, Twist
 from nav_msgs.msg import Odometry
 
@@ -74,10 +73,9 @@ class GoToGoal(Node):
         self.goal_active = False
         self.last_goal_frame = ""
 
-        self.wall_clock = Clock(clock_type=ClockType.SYSTEM_TIME)
         self.last_odom_time = None
         self.last_cmd = Twist()
-        self.last_control_time = self.wall_clock.now()
+        self.last_control_time = self.get_clock().now()
 
         self.goal_sub = self.create_subscription(PoseStamped, self.goal_topic, self.goal_callback, 10)
         if self.use_external_odom:
@@ -88,7 +86,7 @@ class GoToGoal(Node):
         self.cmd_pub = self.create_publisher(Twist, self.cmd_vel_topic, 10)
 
         timer_period = 1.0 / max(self.control_rate_hz, 1.0)
-        self.timer = self.create_timer(timer_period, self.control_loop, clock=self.wall_clock)
+        self.timer = self.create_timer(timer_period, self.control_loop)
 
         odom_mode = "external /odom" if self.use_external_odom else "internal command integration"
         self.get_logger().info(f"GO_TO_GOAL READY | goal={self.goal_topic} cmd_out={self.cmd_vel_topic} "f"odom={odom_mode}")
@@ -144,7 +142,7 @@ class GoToGoal(Node):
         if self.last_odom_time is None:
             return False
         
-        odom_age = (self.wall_clock.now() - self.last_odom_time).nanoseconds * 1e-9
+        odom_age = (self.get_clock().now() - self.last_odom_time).nanoseconds * 1e-9
         return odom_age <= self.odom_timeout_sec
     
     def integrate_internal_pose(self, dt: float, cmd: Twist):
@@ -202,7 +200,7 @@ class GoToGoal(Node):
         return cmd
     
     def control_loop(self):
-        now = self.wall_clock.now()
+        now = self.get_clock().now()
         dt = (now - self.last_control_time).nanoseconds * 1e-9
         self.last_control_time = now
         

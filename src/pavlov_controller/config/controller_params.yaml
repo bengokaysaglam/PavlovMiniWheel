@@ -2,7 +2,7 @@ ros__parameters:
     control_frequency: 50.0
 
     wheel_radius: 0.0325              
-    wheel_track: 0.10706              
+    wheel_track: 0.1071              
     robot_wheelbase: 0.18340
   
     max_linear_velocity: 0.5          

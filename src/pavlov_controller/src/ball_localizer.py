@@ -233,9 +233,10 @@ class BallLocalizer(Node):
         
         fx, fy, cx, cy = self._fx, self._fy, self._cx, self._cy
 
-        if fx is not None and fy is not None:
-            f = 0.5 * (fx + fy)
+        if fx is None and fy is None:
+            self.get_logger().warn("Camera intrinsics missing (fx/fy is None); skipping frame.")
 
+        f = 0.5 * (fx + fy)
         x_forward = f * ball_radius_m / max(radius_px, 1e-6)
 
         if x_forward <= 0.0 or x_forward > max_range_m:
